@@ -1,0 +1,2695 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+	<rdf:Description rdf:about="https://dbpedia.org/resource/Cambodia">
+		<dbp:name xml:lang="en">Cambodia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>16.713.015</dbp:population>
+		<dbp:area>181.035</dbp:area>
+		<dbp:capital>Phnom Penh</dbp:capital>
+		<dbp:officialLanguage>Khmer</dbp:officialLanguage>
+		<dbp:currency>Khmer riel (៛) (KHR)</dbp:currency>
+		<dbp:currency>United States dollar ($) (USD)</dbp:currency>
+		<dbp:callingCode>+855</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Provincial_Boundaries_in_Cambodia.svg/1200px-Provincial_Boundaries_in_Cambodia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/188px-Flag_of_Cambodia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Royal_arms_of_Cambodia.svg/128px-Royal_arms_of_Cambodia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/resource/Laos">
+		<dbp:name xml:lang="en">Laos</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>7.749.595</dbp:population>
+		<dbp:area>237.955</dbp:area>
+		<dbp:capital>Vientiane</dbp:capital>
+		<dbp:officialLanguage>Lao</dbp:officialLanguage>
+		<dbp:currency>Lao kip (₭) (LAK)</dbp:currency>
+		<dbp:callingCode>+856</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://asset.kompas.com/crops/lU98V77P_YJdfjtDMYFGs7pT1Zg=/0x108:1600x1175/750x500/data/photo/2021/02/05/601d07053f657.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/188px-Flag_of_Laos.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Emblem_of_Laos.svg/150px-Emblem_of_Laos.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Malaysia">
+		<dbp:name xml:lang="en">Malaysia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>34.219.975</dbp:population>
+		<dbp:area>330.803</dbp:area>
+		<dbp:capital>Kuala Lumpur</dbp:capital>
+		<dbp:officialLanguage>Bahasa Melayu</dbp:officialLanguage>
+		<dbp:currency>Ringgit (RM) (MYR)</dbp:currency>
+		<dbp:callingCode>+60</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01gxjdaahnve4nhxrm845z5dn2.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/188px-Flag_of_Malaysia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Coat_of_arms_of_Malaysia.svg/128px-Coat_of_arms_of_Malaysia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Myanmar">
+		<dbp:name xml:lang="en">Myanmar</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>57.526.449</dbp:population>
+		<dbp:area>676.578</dbp:area>
+		<dbp:capital>Naypyidaw</dbp:capital>
+		<dbp:officialLanguage>Burma</dbp:officialLanguage>
+		<dbp:currency>Kyat (K) (MMK)</dbp:currency>
+		<dbp:callingCode>+95</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Burma_en.png/220px-Burma_en.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/188px-Flag_of_Myanmar.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/State_seal_of_Myanmar.svg/153px-State_seal_of_Myanmar.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Thailand">
+		<dbp:name xml:lang="en">Thailand</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>69.648.117</dbp:population>
+		<dbp:area>513.120</dbp:area>
+		<dbp:capital>Bangkok</dbp:capital>
+		<dbp:officialLanguage>Thai</dbp:officialLanguage>
+		<dbp:currency>Baht (฿) (THB)</dbp:currency>
+		<dbp:callingCode>+66</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://i.pinimg.com/originals/dc/df/44/dcdf44689a1746af56a5d4b44aa9de6b.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/188px-Flag_of_Thailand.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Thailand.svg/128px-Emblem_of_Thailand.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Vietnam">
+		<dbp:name xml:lang="en">Vietnam</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>103.808.319</dbp:population>
+		<dbp:area>331.212</dbp:area>
+		<dbp:capital>Hanoi</dbp:capital>
+		<dbp:officialLanguage>Vietnam</dbp:officialLanguage>
+		<dbp:currency>Đồng (₫) (VND)</dbp:currency>
+		<dbp:callingCode>+84</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id-static.z-dn.net/files/d2b/fcd2369a4047fbc8981f02e85b833603.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/188px-Flag_of_Vietnam.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_Vietnam.svg/128px-Emblem_of_Vietnam.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Brunei">
+		<dbp:name xml:lang="en">Brunei Darussalam</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>484.345</dbp:population>
+		<dbp:area>5.765</dbp:area>
+		<dbp:capital>Bandar Seri Begawan</dbp:capital>
+		<dbp:officialLanguage>Melayu</dbp:officialLanguage>
+		<dbp:currency>Dolar Brunei Darussalam (B$) (BND)</dbp:currency>
+		<dbp:callingCode>+673</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id-static.z-dn.net/files/db4/e12bad42b8e034154daf7b43eb05d88a.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/188px-Flag_of_Brunei.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/113px-Emblem_of_Brunei.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/the_Philippines">
+		<dbp:name xml:lang="en">Filipina</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>109.035.343</dbp:population>
+		<dbp:area>300.000</dbp:area>
+		<dbp:capital>Manila</dbp:capital>
+		<dbp:officialLanguage>Filipino</dbp:officialLanguage>
+		<dbp:currency>Peso (₱) (PHP)</dbp:currency>
+		<dbp:callingCode>+63</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2023/03/14155830/letak-astronomis-filipina-1.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/188px-Flag_of_the_Philippines.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_the_Philippines.svg/110px-Coat_of_arms_of_the_Philippines.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Indonesia">
+		<dbp:name xml:lang="en">Indonesia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>279.118.866</dbp:population>
+		<dbp:area>1.904.569</dbp:area>
+		<dbp:capital>Jakarta</dbp:capital>
+		<dbp:officialLanguage>Indonesia</dbp:officialLanguage>
+		<dbp:currency>Rupiah (Rp) (IDR)</dbp:currency>
+		<dbp:callingCode>+62</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.amazonaws.com/2021/12/Bagan-Peta-Indonesia-1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/188px-Flag_of_Indonesia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/119px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Singapore">
+		<dbp:name xml:lang="en">Singapura</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>5.980.352</dbp:population>
+		<dbp:area>743</dbp:area>
+		<dbp:capital>Kota Singapura</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Melayu</dbp:officialLanguage>
+		<dbp:officialLanguage>Mandarin</dbp:officialLanguage>
+		<dbp:officialLanguage>Tamil</dbp:officialLanguage>
+		<dbp:currency>Dolar Singapura (S$) (SGD)</dbp:currency>
+		<dbp:callingCode>+65</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://i.pinimg.com/564x/d0/b1/83/d0b183133b5a8604552631539ec05275.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/188px-Flag_of_Singapore.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_arms_of_Singapore.svg/156px-Coat_of_arms_of_Singapore.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/East_Timor">
+		<dbp:name xml:lang="en">Timor Leste</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>1.445.006</dbp:population>
+		<dbp:area>15</dbp:area>
+		<dbp:capital>Dili</dbp:capital>
+		<dbp:officialLanguage>Purtugis</dbp:officialLanguage>
+		<dbp:officialLanguage>Tetun</dbp:officialLanguage>
+		<dbp:currency>Koin centavo Timor Leste</dbp:currency>
+		<dbp:currency>Dolar Amerika Serikat ($) (USD)</dbp:currency>
+		<dbp:callingCode>+670</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2022_East_Timor%2C_administrative_divisions_-_de_-_colour.tif/lossy-page1-500px-2022_East_Timor%2C_administrative_divisions_-_de_-_colour.tif.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/188px-Flag_of_East_Timor.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coat_of_arms_of_East_Timor.svg/105px-Coat_of_arms_of_East_Timor.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Bangladesh">
+		<dbp:name xml:lang="en">Bangladesh</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>165.158.616</dbp:population>
+		<dbp:area>148.456</dbp:area>
+		<dbp:capital>Dhaka</dbp:capital>
+		<dbp:officialLanguage>Bengali</dbp:officialLanguage>
+		<dbp:currency>Taka (৳) (BDT)</dbp:currency>
+		<dbp:callingCode>+880</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.pinhome.id/blog/wp-content/uploads/2018/05/Peta-Bangladesh.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/188px-Flag_of_Bangladesh.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/128px-National_emblem_of_Bangladesh.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Bhutan">
+		<dbp:name xml:lang="en">Bhutan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>727.145</dbp:population>
+		<dbp:area>38.394</dbp:area>
+		<dbp:capital>Thimphu</dbp:capital>
+		<dbp:officialLanguage>Dzongkha</dbp:officialLanguage>
+		<dbp:currency>Ngultrum (Nu.) (BTN)</dbp:currency>
+		<dbp:currency>Rupee India (₹) (INR)</dbp:currency>
+		<dbp:callingCode>+975</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://i.pinimg.com/564x/88/50/01/885001926b9e815256218b99e61975f1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/188px-Flag_of_Bhutan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_Bhutan.svg/128px-Emblem_of_Bhutan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/India">
+		<dbp:name xml:lang="en">India</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>1.375.586.000</dbp:population>
+		<dbp:area>3.287.590</dbp:area>
+		<dbp:capital>New Delhi</dbp:capital>
+		<dbp:officialLanguage>Hindi</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Rupee India (₹) (INR)</dbp:currency>
+		<dbp:callingCode>+91</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.pixabay.com/photo/2023/09/22/11/30/india-map-8268866_1280.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/188px-Flag_of_India.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/113px-Emblem_of_India.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Maldives">
+		<dbp:name xml:lang="en">Maladewa</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>579.330</dbp:population>
+		<dbp:area>300</dbp:area>
+		<dbp:capital>Malé</dbp:capital>
+		<dbp:officialLanguage>Divehi</dbp:officialLanguage>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Rufiyaa Maladewa (Rf) (MVR)</dbp:currency>
+		<dbp:currency>Dolar Amerika Serikat ($) (Digunakan di pulau resor Maladewa) (USD)</dbp:currency>
+		<dbp:callingCode>+960</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://maldivesfinest.com/wp-content/uploads/2013/11/maldives-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Maldives.svg/188px-Flag_of_Maldives.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Emblem_of_Maldives.svg/128px-Emblem_of_Maldives.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Nepal">
+		<dbp:name xml:lang="en">Nepal</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>30.666.598</dbp:population>
+		<dbp:area>147.516</dbp:area>
+		<dbp:capital>Kathmandu</dbp:capital>
+		<dbp:officialLanguage>Nepali</dbp:officialLanguage>
+		<dbp:currency>Rupee Nepal (रू) (NPR)</dbp:currency>
+		<dbp:callingCode>+977</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://mmc.tirto.id/image/2023/01/04/peta-nepal-istock_ratio-16x9.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/129px-Flag_of_Nepal.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Emblem_of_Nepal_%28alternative%29.svg/165px-Emblem_of_Nepal_%28alternative%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Pakistan">
+		<dbp:name xml:lang="en">Pakistan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>249.566.743</dbp:population>
+		<dbp:area>881.913</dbp:area>
+		<dbp:capital>Islamabad</dbp:capital>
+		<dbp:officialLanguage>Urdu</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Rupee Pakistan (₨) (PKR)</dbp:currency>
+		<dbp:callingCode>+92</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://misi.sabda.org/files/Pakistan_2.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/188px-Flag_of_Pakistan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/111px-State_emblem_of_Pakistan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Sri_Lanka">
+		<dbp:name xml:lang="en">Sri Lanka</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>22.156.000</dbp:population>
+		<dbp:area>65.610</dbp:area>
+		<dbp:capital>Sri Jayawardenepura Kotte (legislatif)</dbp:capital>
+		<dbp:capital>Kolombo (eksekutif dan yudikatif)</dbp:capital>
+		<dbp:officialLanguage>Sinhala</dbp:officialLanguage>
+		<dbp:officialLanguage>Tamil</dbp:officialLanguage>
+		<dbp:currency>Rupee Sri Lanka (රු) (LKR)</dbp:currency>
+		<dbp:callingCode>+94</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.sembadapangan.com/wp-content/uploads/2022/07/Srilanka-yang-Saya-Kenal.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/188px-Flag_of_Sri_Lanka.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_Sri_Lanka.svg/113px-Emblem_of_Sri_Lanka.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Afghanistan">
+		<dbp:name xml:lang="en">Afghanistan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>38.346.720</dbp:population>
+		<dbp:area>652.230</dbp:area>
+		<dbp:capital>Kabul</dbp:capital>
+		<dbp:officialLanguage>Persia</dbp:officialLanguage>
+		<dbp:officialLanguage>Pashtun</dbp:officialLanguage>
+		<dbp:currency>Afgani (Afs) (AFN)</dbp:currency>
+		<dbp:callingCode>+93</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://blog-test.heylaw.id/wp-content/uploads/2021/09/Screenshot_435.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/240px-Flag_of_the_Taliban.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Arms_of_the_Islamic_Emirate_of_Afghanistan.svg/150px-Arms_of_the_Islamic_Emirate_of_Afghanistan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Russia">
+		<dbp:name xml:lang="en">Rusia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>147.164.296</dbp:population>
+		<dbp:area>17.125.191</dbp:area>
+		<dbp:capital>Moskwa</dbp:capital>
+		<dbp:officialLanguage>Rusia</dbp:officialLanguage>
+		<dbp:currency>Rubel Rusia (₽) (RUB)</dbp:currency>
+		<dbp:callingCode>+7</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://asset-2.tstatic.net/medan/foto/bank/images/Negara-yang-akan-direbut-kembali-oleh-Putin.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Russia_with_border.svg/188px-Flag_of_Russia_with_border.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/117px-Coat_of_Arms_of_the_Russian_Federation.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Saudi_Arabia">
+		<dbp:name xml:lang="en">Arab Saudi</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>2.149.690</dbp:population>
+		<dbp:area>38.401.000</dbp:area>
+		<dbp:capital>Riyadh</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Riyal Saudi (ر.س) (SAR)</dbp:currency>
+		<dbp:callingCode>+966</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://mmc.tirto.id/image/2023/01/11/peta-arab-saudi-istock_ratio-16x9.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/langid-1500px-Flag_of_Saudi_Arabia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Emblem_of_Saudi_Arabia.svg/220px-Emblem_of_Saudi_Arabia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Armenia">
+		<dbp:name xml:lang="en">Armenia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>3.102.756</dbp:population>
+		<dbp:area>29.743</dbp:area>
+		<dbp:capital>Yerevan</dbp:capital>
+		<dbp:officialLanguage>Armenia</dbp:officialLanguage>
+		<dbp:currency>Dram (֏) (AMD)</dbp:currency>
+		<dbp:callingCode>+374</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/upload/8d/5c/fa/provinces-of-armenia-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Armenia_%28Soviet_colors%29.svg/1200px-Flag_of_Armenia_%28Soviet_colors%29.svg.png" />
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-GVUN7nVyVG8/Xtn9oT2Pa6I/AAAAAAAAIg4/o4q-3_ierTUFvaM_m5pRcVaXd2Oko95IQCPcBGAYYCw/s800/arm_emb_idezia.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Azerbaijan">
+		<dbp:name xml:lang="en">Azerbaijan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>10.353.296</dbp:population>
+		<dbp:area>86.600</dbp:area>
+		<dbp:capital>Baku</dbp:capital>
+		<dbp:officialLanguage>Azeri</dbp:officialLanguage>
+		<dbp:currency>Manat Azerbaijan (AZM)</dbp:currency>
+		<dbp:callingCode>+994</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/upload/28/e1/02/az-01.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Flag_of_Azerbaijan_%28Pantone%29.svg/1920px-Flag_of_Azerbaijan_%28Pantone%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Emblem_of_Azerbaijan.svg/128px-Emblem_of_Azerbaijan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Bahrain">
+		<dbp:name xml:lang="en">Bahrain</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>1.879.106</dbp:population>
+		<dbp:area>780</dbp:area>
+		<dbp:capital>Manama</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dinar Bahrain (.د.ب) (BHD)</dbp:currency>
+		<dbp:callingCode>+973</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/upload/e1/2e/95/bh-01.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/188px-Flag_of_Bahrain.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Emblem_of_Bahrain.svg/113px-Emblem_of_Bahrain.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Georgia_(country)">
+		<dbp:name xml:lang="en">Georgia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>4.012.104</dbp:population>
+		<dbp:area>69.420</dbp:area>
+		<dbp:capital>Tbilisi</dbp:capital>
+		<dbp:officialLanguage>Georgia</dbp:officialLanguage>
+		<dbp:currency>Lari (GEL)</dbp:currency>
+		<dbp:callingCode>+995</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://static.republika.co.id/uploads/images/inpicture_slide/peta-georgia-_120214080223-745.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/188px-Flag_of_Georgia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/150px-Greater_coat_of_arms_of_Georgia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Iraq">
+		<dbp:name xml:lang="en">Irak</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>40.462.701</dbp:population>
+		<dbp:area>437.072</dbp:area>
+		<dbp:capital>Bagdad</dbp:capital>
+		<dbp:officialLanguage>Arab - Kurdi</dbp:officialLanguage>
+		<dbp:currency>Dinar Irak (د.ع) (IQD)</dbp:currency>
+		<dbp:callingCode>+964</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://static.republika.co.id/uploads/images/headline_slide/irak-_140611081638-139.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/188px-Flag_of_Iraq.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Iraq.svg/105px-Coat_of_arms_of_Iraq.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Iran">
+		<dbp:name xml:lang="en">Iran</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>86.758.304</dbp:population>
+		<dbp:area>1.648.195</dbp:area>
+		<dbp:capital>Tehran</dbp:capital>
+		<dbp:officialLanguage>Persia</dbp:officialLanguage>
+		<dbp:currency>Rial Iran (﷼) (IRR)</dbp:currency>
+		<dbp:callingCode>+98</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Iran_map.png/225px-Iran_map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Iran_2.svg/188px-Flag_of_Iran_2.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Emblem_of_Iran.svg/111px-Emblem_of_Iran.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Japan">
+		<dbp:name xml:lang="en">Jepang</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>124.214.766</dbp:population>
+		<dbp:area>377.974</dbp:area>
+		<dbp:capital>Tokyo</dbp:capital>
+		<dbp:officialLanguage>Jepang</dbp:officialLanguage>
+		<dbp:currency>Yen (¥) / 円 (JPY)</dbp:currency>
+		<dbp:callingCode>+81</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.infojepang.net/wp-content/uploads/peta-jepang-23-05-2016.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.hsvg/188px-Flag_of_Japan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Imperial_Seal_of_Japan.svg/128px-Imperial_Seal_of_Japan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Kazakhstan">
+		<dbp:name xml:lang="en">Kazakhstan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>19.882.467</dbp:population>
+		<dbp:area>2.724.900</dbp:area>
+		<dbp:capital>Astana</dbp:capital>
+		<dbp:officialLanguage>Kazakh</dbp:officialLanguage>
+		<dbp:currency>Tenge (₸) (KZT)</dbp:currency>
+		<dbp:callingCode>+7</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kazakhstan_provinces_and_province_capitals_en_2022.png/650px-Kazakhstan_provinces_and_province_capitals_en_2022.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/188px-Flag_of_Kazakhstan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Emblem_of_Kazakhstan_latin.svg/128px-Emblem_of_Kazakhstan_latin.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/South_Korea">
+		<dbp:name xml:lang="en">Korea Selatan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>51.821.669</dbp:population>
+		<dbp:area>100.363</dbp:area>
+		<dbp:capital>Seoul</dbp:capital>
+		<dbp:officialLanguage>Korea</dbp:officialLanguage>
+		<dbp:currency>Won Republik Korea (₩) (KRW)</dbp:currency>
+		<dbp:callingCode>+82</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/7/7e/Korea_south_map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/188px-Flag_of_South_Korea.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Emblem_of_South_Korea.svg/128px-Emblem_of_South_Korea.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/North_Korea">
+		<dbp:name xml:lang="en">Korea Utara</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>25.955.138</dbp:population>
+		<dbp:area>120.540</dbp:area>
+		<dbp:capital>Pyongyang</dbp:capital>
+		<dbp:officialLanguage>Korea</dbp:officialLanguage>
+		<dbp:currency>Won Rakyat Korea (₩) (KPW)</dbp:currency>
+		<dbp:callingCode>+850</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/North_Korea_-_Location_Map_%282013%29_-_PRK_-_UNOCHA.svg/langid-250px-North_Korea_-_Location_Map_%282013%29_-_PRK_-_UNOCHA.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/188px-Flag_of_North_Korea.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Emblem_of_North_Korea.svg/105px-Emblem_of_North_Korea.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Kuwait">
+		<dbp:name xml:lang="en">Kuwait</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>4.460.000</dbp:population>
+		<dbp:area>17.820</dbp:area>
+		<dbp:capital>Kota Kuwait</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dinar Kuwait (د.ك) (KWD)</dbp:currency>
+		<dbp:callingCode>+965</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://i.pinimg.com/736x/d8/aa/50/d8aa50e0cb18dda56b88459d16d6153a.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/188px-Flag_of_Kuwait.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Emblem_of_Kuwait.svg/128px-Emblem_of_Kuwait.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Kyrgyzstan">
+		<dbp:name xml:lang="en">Kirgiztan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>7.000.000</dbp:population>
+		<dbp:area>199.951</dbp:area>
+		<dbp:capital>Bishkek</dbp:capital>
+		<dbp:officialLanguage>Kirgiz</dbp:officialLanguage>
+		<dbp:currency>Som Kirgizstan (лв) (KGS)</dbp:currency>
+		<dbp:callingCode>+996</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.pinhome.id/blog/wp-content/uploads/2019/01/Peta-Kyrgyzstan-1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/188px-Flag_of_Kyrgyzstan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Emblem_of_Kyrgyzstan.svg/128px-Emblem_of_Kyrgyzstan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Lebanon">
+		<dbp:name xml:lang="en">Lebanon</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>6.734.814</dbp:population>
+		<dbp:area>10.452</dbp:area>
+		<dbp:capital>Beirut</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Pound Libanon (ل.ل) (LBP)</dbp:currency>
+		<dbp:callingCode>+961</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Map_of_Lebanon.png/225px-Map_of_Lebanon.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/188px-Flag_of_Lebanon.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Lebanon.svg/113px-Coat_of_arms_of_Lebanon.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Egypt">
+		<dbp:name xml:lang="en">Egypt</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>107.770.524</dbp:population>
+		<dbp:area>1.010.407</dbp:area>
+		<dbp:capital>Kairo</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Pound Mesir (ج.م.) (EGP)</dbp:currency>
+		<dbp:callingCode>+20</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-yn4KrL6xqfE/Tj8s-GtGcNI/AAAAAAAAA4c/XjbBtOUweu4/s1600/egypt_map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/188px-Flag_of_Egypt.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg/105px-Coat_of_arms_of_Egypt_%28Official%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mongolia">
+		<dbp:name xml:lang="en">Mongolia</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>3.658.863</dbp:population>
+		<dbp:area>1.564.116</dbp:area>
+		<dbp:capital>Ulaanbaatar</dbp:capital>
+		<dbp:officialLanguage>Mongol</dbp:officialLanguage>
+		<dbp:currency>Tögrög (₮) (MNT)</dbp:currency>
+		<dbp:callingCode>+976</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Mongolia_1996_CIA_map.jpg/220px-Mongolia_1996_CIA_map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/188px-Flag_of_Mongolia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/State_emblem_of_Mongolia.svg/128px-State_emblem_of_Mongolia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Oman">
+		<dbp:name xml:lang="en">Oman</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>4.527.446</dbp:population>
+		<dbp:area>309.501</dbp:area>
+		<dbp:capital>Muskat</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Rial Oman (ر.ع.) (OMR)</dbp:currency>
+		<dbp:callingCode>+968</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.researchgate.net/publication/264860582/figure/fig1/AS:646814298550273@1531223954576/The-sultanate-of-Oman-map-and-location-of-the-study-area.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/188px-Flag_of_Oman.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/National_emblem_of_Oman.svg/102px-National_emblem_of_Oman.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Qatar">
+		<dbp:name xml:lang="en">Qatar</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>3.278.489</dbp:population>
+		<dbp:area>11.571</dbp:area>
+		<dbp:capital>Doha</dbp:capital>
+		<dbp:officialLanguage>Arab - Inggris</dbp:officialLanguage>
+		<dbp:currency>Riyal Qatar (ر.ق) (QAR)</dbp:currency>
+		<dbp:callingCode>+974</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/upload/37/04/e1/qa-01.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/188px-Flag_of_Qatar.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/New_Emblem_of_Qatar.png/128px-New_Emblem_of_Qatar.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Cyprus">
+		<dbp:name xml:lang="en">Siprus</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>1.295.102</dbp:population>
+		<dbp:area>9.251</dbp:area>
+		<dbp:capital>Nikosia</dbp:capital>
+		<dbp:officialLanguage>Yunani</dbp:officialLanguage>
+		<dbp:officialLanguage>Turki</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+357</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/cyprus-1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/188px-Flag_of_Cyprus.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coat_of_arms_of_Cyprus_%282006%29.svg/128px-Coat_of_arms_of_Cyprus_%282006%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Syria">
+		<dbp:name xml:lang="en">Suriah</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>21.563.800</dbp:population>
+		<dbp:area>185.180</dbp:area>
+		<dbp:capital>Damaskus</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Pound Suriah (LS) (SYP)</dbp:currency>
+		<dbp:callingCode>+963</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Sy-map.png/250px-Sy-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/188px-Flag_of_Syria.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coat_of_arms_of_Syria.svg/134px-Coat_of_arms_of_Syria.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Tajikistan">
+		<dbp:name xml:lang="en">Tajikistan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>9.119.347</dbp:population>
+		<dbp:area>143.100</dbp:area>
+		<dbp:capital>Dushanbe</dbp:capital>
+		<dbp:officialLanguage>Tajik</dbp:officialLanguage>
+		<dbp:officialLanguage>Rusia</dbp:officialLanguage>
+		<dbp:currency>Somoni (TJS)</dbp:currency>
+		<dbp:callingCode>+992</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.shutterstock.com/shutterstock/photos/452295901/display_1500/stock-vector-tajikistan-political-map-with-capital-dushanbe-national-borders-important-cities-rivers-and-452295901.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/188px-Flag_of_Tajikistan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Emblem_of_Tajikistan.svg/128px-Emblem_of_Tajikistan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/China">
+		<dbp:name xml:lang="en">Tiongkok</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>1.410.539.758</dbp:population>
+		<dbp:area>9.596.961</dbp:area>
+		<dbp:capital>Beijing</dbp:capital>
+		<dbp:officialLanguage>Tionghoa Baku</dbp:officialLanguage>
+		<dbp:currency>Yuan (元/¥)[k] (CNY)</dbp:currency>
+		<dbp:callingCode>+86 (Daratan)</dbp:callingCode>
+		<dbp:callingCode>+852(Hong Kong)</dbp:callingCode>
+		<dbp:callingCode>+853(Makau)</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/China_administrative_claimed_included.svg/515px-China_administrative_claimed_included.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/188px-Flag_of_the_People%27s_Republic_of_China.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/National_Emblem_of_the_People%27s_Republic_of_China_%282%29.svg/128px-National_Emblem_of_the_People%27s_Republic_of_China_%282%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Turkey">
+		<dbp:name xml:lang="en">Turki</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>84.680.273</dbp:population>
+		<dbp:area>783.562</dbp:area>
+		<dbp:capital>Ankara</dbp:capital>
+		<dbp:officialLanguage>Turki</dbp:officialLanguage>
+		<dbp:currency>Lira Turki (₺) (TRY)</dbp:currency>
+		<dbp:callingCode>+90</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/0/0e/Anatolia_Turkey.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/188px-Flag_of_Turkey.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/128px-Emblem_of_Turkey.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Turkmenistan">
+		<dbp:name xml:lang="en">Turkmenistan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>5.636.011</dbp:population>
+		<dbp:area>491.210</dbp:area>
+		<dbp:capital>Ashgabat</dbp:capital>
+		<dbp:officialLanguage>Turkmen</dbp:officialLanguage>
+		<dbp:currency>Manat Turkmenistan (M) (TMT)</dbp:currency>
+		<dbp:callingCode>+993</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://mmc.tirto.id/image/2023/09/07/peta-turkmenistan-istock-547404744.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/188px-Flag_of_Turkmenistan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Emblem_of_Turkmenistan.svg/128px-Emblem_of_Turkmenistan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/United_Arab_Emirates">
+		<dbp:name xml:lang="en">Uni Emirat Arab</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>9.915.803</dbp:population>
+		<dbp:area>83.600</dbp:area>
+		<dbp:capital>Abu Dhabi</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dirham Uni Emirat Arab (د.إ.) (AED)</dbp:currency>
+		<dbp:callingCode>+971</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.islamtimes.org/images/docs/000401/n00401536-b.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/188px-Flag_of_the_United_Arab_Emirates.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_the_United_Arab_Emirates.svg/113px-Emblem_of_the_United_Arab_Emirates.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Uzbekistan">
+		<dbp:name xml:lang="en">Uzbekistan</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>32.121.000</dbp:population>
+		<dbp:area>448.978</dbp:area>
+		<dbp:capital>Tashkent</dbp:capital>
+		<dbp:officialLanguage>Uzbek</dbp:officialLanguage>
+		<dbp:officialLanguage>Rusia</dbp:officialLanguage>
+		<dbp:currency>Som Uzbekistan (soʻm) (UZS)</dbp:currency>
+		<dbp:callingCode>+998</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id.maps-uzbekistan.com/img/0/peta-dari-uzbekistan.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Uzbekistan_%28Soviet_colors%29.svg/188px-Flag_of_Uzbekistan_%28Soviet_colors%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/128px-Emblem_of_Uzbekistan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Yemen">
+		<dbp:name xml:lang="en">Yaman</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>330.984.689</dbp:population>
+		<dbp:area>528.076</dbp:area>
+		<dbp:capital>Sana'a</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Rial Yaman (﷼) (YER)</dbp:currency>
+		<dbp:callingCode>+967</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pict.sindonews.net/dyn/850/pena/news/2022/11/29/43/954543/arab-saudi-sponsori-reformasi-ekonomi-yaman-senilai-rp157-triliun-ycy.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/188px-Flag_of_Yemen.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Emblem_of_Yemen.svg/225px-Emblem_of_Yemen.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Jordan">
+		<dbp:name xml:lang="en">Yordania</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>10.998.531</dbp:population>
+		<dbp:area>89.342</dbp:area>
+		<dbp:capital>Amman</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dinar Yordania (د.ي) (JOD)</dbp:currency>
+		<dbp:callingCode>+962</dbp:callingCode>
+		<foaf:depiction rdf:resource="http://ppi.jordan.tripod.com/jordanmap2.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/188px-Flag_of_Jordan.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Coat_of_arms_of_Jordan.svg/128px-Coat_of_arms_of_Jordan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Palestine">
+		<dbp:name xml:lang="en">Palestina</dbp:name>
+		<dbp:continent>Asia</dbp:continent>
+		<dbp:population>5.377.429</dbp:population>
+		<dbp:area>6.020</dbp:area>
+		<dbp:capital>Yerusalem</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dinar Yordania (.د.ي) (JOD)</dbp:currency>
+		<dbp:currency>Pound Mesir (ج.م) (EGP)</dbp:currency>
+		<dbp:callingCode>+970</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://backpanel.kemlu.go.id/PublishingImages/Palestine%20Map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/188px-Flag_of_Palestine.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_Palestine.svg/128px-Coat_of_arms_of_Palestine.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Albania">
+		<dbp:name xml:lang="en">Albania</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>3.095.592</dbp:population>
+		<dbp:area>28.748</dbp:area>
+		<dbp:capital>Tirana</dbp:capital>
+		<dbp:officialLanguage>Albania</dbp:officialLanguage>
+		<dbp:currency>Lek (L) (ALL)</dbp:currency>
+		<dbp:callingCode>+355</dbp:callingCode>
+		<foaf:depiction rdf:resource="" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/188px-Flag_of_Albania.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coat_of_arms_of_Albania.svg/90px-Coat_of_arms_of_Albania.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Andorra">
+		<dbp:name xml:lang="en">Andorra</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>77.543</dbp:population>
+		<dbp:area>467.63</dbp:area>
+		<dbp:capital>Andorra la Vella</dbp:capital>
+		<dbp:officialLanguage>Katalan</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>376</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Andorra_map.svg/952px-Andorra_map.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/188px-Flag_of_Andorra.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_Andorra.svg/128px-Coat_of_arms_of_Andorra.svg.png" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://dbpedia.org/page/Armenia">
+		<dbp:name xml:lang="en">Armenia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>3.102.756</dbp:population>
+		<dbp:area>29.743</dbp:area>
+		<dbp:capital>Yereva</dbp:capital>
+		<dbp:officialLanguage>Armenia</dbp:officialLanguage>
+		<dbp:currency>Dram (֏)(AMD)</dbp:currency>
+		<dbp:callingCode>+374</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.amazonaws.com/2021/12/Armenia-political-map-2.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Armenia_%28Soviet_colors%29.svg/1200px-Flag_of_Armenia_%28Soviet_colors%29.svg.png" />
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-GVUN7nVyVG8/Xtn9oT2Pa6I/AAAAAAAAIg4/o4q-3_ierTUFvaM_m5pRcVaXd2Oko95IQCPcBGAYYCw/s800/arm_emb_idezia.com.png" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://dbpedia.org/page/Austria">
+		<dbp:name xml:lang="en">Austria</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>9.027.999</dbp:population>
+		<dbp:area>83.879</dbp:area>
+		<dbp:capital>Wina</dbp:capital>
+		<dbp:officialLanguage>Jerman</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+43</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.britannica.com/87/183587-050-379FCD4F/World-Data-Locator-Map-Austria.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/188px-Flag_of_Austria.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Coat_of_arms_of_Austria.svg/122px-Coat_of_arms_of_Austria.svg.png" />
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://dbpedia.org/page/United_States">
+		<dbp:name xml:lang="en">Amerika Serikat</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>341.149.745</dbp:population>
+		<dbp:area>9.147.590</dbp:area>
+		<dbp:capital>Washingtoon, D.C.</dbp:capital>
+		<dbp:officialLanguage>Bahasa Inggris</dbp:officialLanguage>
+		<dbp:currency>US$</dbp:currency>
+		<dbp:callingCode>+1</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Map_of_USA_with_state_names.svg/langid-1200px-Map_of_USA_with_state_names.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/428px-Flag_of_the_United_States.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Great_Seal_of_the_United_States_%28obverse%29.svg/800px-Great_Seal_of_the_United_States_%28obverse%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Antigua_and_Barbuda">
+		<dbp:name xml:lang="en">Antigua and Barbuda</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>94.435</dbp:population>
+		<dbp:area>443</dbp:area>
+		<dbp:capital>Saint John’s</dbp:capital>
+		<dbp:officialLanguage>Bahasa Inggris</dbp:officialLanguage>
+		<dbp:currency>$XCD</dbp:currency>
+		<dbp:callingCode>+1268</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/r/w1200/upload/f0/f2/c4/ag-01.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Antigua_and_Barbuda.svg/330px-Flag_of_Antigua_and_Barbuda.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Antigua_and_Barbuda.svg/384px-Coat_of_arms_of_Antigua_and_Barbuda.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/The_Bahamas">
+		<dbp:name xml:lang="en">Bahama</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>413.484</dbp:population>
+		<dbp:area>470.000</dbp:area>
+		<dbp:capital>Nassau</dbp:capital>
+		<dbp:officialLanguage>Bahasa Inggris</dbp:officialLanguage>
+		<dbp:currency>$BSD</dbp:currency>
+		<dbp:callingCode>+1-242</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/4/40/CIA_map_of_the_Bahamas.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/188px-Flag_of_the_Bahamas.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coat_of_arms_of_the_Bahamas.svg/128px-Coat_of_arms_of_the_Bahamas.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Barbados">
+		<dbp:name xml:lang="en">Barbados</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>282.099</dbp:population>
+		<dbp:area>432</dbp:area>
+		<dbp:capital>Bridgetown</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>$BBD</dbp:currency>
+		<dbp:callingCode>+1-246</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Barbados-2022_englisch.png/435px-Barbados-2022_englisch.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Barbados.svg/188px-Flag_of_Barbados.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_Barbados_%282%29.svg/128px-Coat_of_arms_of_Barbados_%282%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Belize">
+		<dbp:name xml:lang="en">Belize</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>412.713</dbp:population>
+		<dbp:area>22.960</dbp:area>
+		<dbp:capital>Belmopan</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>$BZD</dbp:currency>
+		<dbp:callingCode>+501</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coat_of_arms_of_Belize.svg/128px-Coat_of_arms_of_Belize.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/188px-Flag_of_Belize.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/0/06/Belize-CIA_WFB_Map.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Dominika_Cibulkov%C3%A1">
+		<dbp:name xml:lang="en">Dominika</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>11.364.570</dbp:population>
+		<dbp:area>750</dbp:area>
+		<dbp:capital>Roseau</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>$DOP</dbp:currency>
+		<dbp:callingCode>+1-767</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-1iSC2XfCF9s/VyPD1HZlPsI/AAAAAAAAANU/EIrNwQifaUYC-YwZ-K06NzXW3-qqCGG6gCLcB/w1200-h630-p-k-no-nu/image3.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Flag_of_Dominica.svg/188px-Flag_of_Dominica.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Coat_of_arms_of_Dominica.svg/128px-Coat_of_arms_of_Dominica.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Dominican_Republic">
+		<dbp:name xml:lang="en">Dominican Republic</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>10.266.149</dbp:population>
+		<dbp:area>48.442</dbp:area>
+		<dbp:capital>Santo Domingo</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>$RD</dbp:currency>
+		<dbp:callingCode>+1-809 / 829 / 849</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dominican_Republic_-_Location_Map_%282013%29_-_DOM_-_UNOCHA.svg/langid-375px-Dominican_Republic_-_Location_Map_%282013%29_-_DOM_-_UNOCHA.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/188px-Flag_of_the_Dominican_Republic.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Coat_of_arms_of_the_Dominican_Republic.svg/128px-Coat_of_arms_of_the_Dominican_Republic.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/El_Salvador">
+		<dbp:name xml:lang="en">El Salvador</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>6.568.745</dbp:population>
+		<dbp:area>21.040</dbp:area>
+		<dbp:capital>San Salvador</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>$SVC</dbp:currency>
+		<dbp:callingCode>+503</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/El_salvador_map.png/600px-El_salvador_map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/188px-Flag_of_El_Salvador.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_arms_of_El_Salvador.svg/128px-Coat_of_arms_of_El_Salvador.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Grenada">
+		<dbp:name xml:lang="en">Grenada</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>126.412</dbp:population>
+		<dbp:area>348</dbp:area>
+		<dbp:capital>St. George’s</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>$XCD</dbp:currency>
+		<dbp:callingCode>+1-473</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Grenada-map.png/330px-Grenada-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/188px-Flag_of_Grenada.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Grenada.svg/128px-Coat_of_arms_of_Grenada.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Guatemala">
+		<dbp:name xml:lang="en">Guatemala</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>18.174.627</dbp:population>
+		<dbp:area>108.889</dbp:area>
+		<dbp:capital>Nueva Guatemala de la Asunción</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>GTQ</dbp:currency>
+		<dbp:callingCode>+502</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://2.bp.blogspot.com/-AfXI-UzFgTg/XD2uEIQyk2I/AAAAAAAADy0/wvI60RzMwJYyAkzZMNc_Xp4vTA_3FaY1gCLcBGAs/s1600/Peta-Guatemala.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/188px-Flag_of_Guatemala.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Guatemala.svg/128px-Coat_of_arms_of_Guatemala.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Haiti">
+		<dbp:name xml:lang="en">Haiti</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>11.012.000</dbp:population>
+		<dbp:area>27.750</dbp:area>
+		<dbp:capital>Port-au-Prince</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:officialLanguage>Kreol Haiti</dbp:officialLanguage>
+		<dbp:currency>Gourde (G)</dbp:currency>
+		<dbp:callingCode>+509</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Haiti_topographic_map-fr.svg/525px-Haiti_topographic_map-fr.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/188px-Flag_of_Haiti.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/128px-Coat_of_arms_of_Haiti.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Honduras">
+		<dbp:name xml:lang="en">Honduras</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>9.588.000</dbp:population>
+		<dbp:area>112.492</dbp:area>
+		<dbp:capital>Tegucigalpa</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Lempira (L)</dbp:currency>
+		<dbp:callingCode>+504</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://4.bp.blogspot.com/-3aHP5t5GRpI/XD6KeqCDKSI/AAAAAAAAD1A/csz2QmYTW2IE0hO4UglAw-N5Z6xX_cPlgCLcBGAs/s1600/Peta-Honduras.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/188px-Flag_of_Honduras.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Coat_of_arms_of_Honduras.svg/113px-Coat_of_arms_of_Honduras.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Jamaica">
+		<dbp:name xml:lang="en">Jamaica</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>2.935.000</dbp:population>
+		<dbp:area>10.991</dbp:area>
+		<dbp:capital>Kingston</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>J$</dbp:currency>
+		<dbp:callingCode>+1-876</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Jm-map.png/299px-Jm-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/188px-Flag_of_Jamaica.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_arms_of_Jamaica.svg/128px-Coat_of_arms_of_Jamaica.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Canada">
+		<dbp:name xml:lang="en">Canada</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>38.884.387</dbp:population>
+		<dbp:area>9.970.610</dbp:area>
+		<dbp:capital>Ottawa</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>C$</dbp:currency>
+		<dbp:callingCode>+1</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/id/thumb/5/5b/CanadaMap1.jpg/450px-CanadaMap1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/188px-Flag_of_Canada_%28Pantone%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/id/thumb/4/4f/Coat_of_arms_of_Canada.svg/128px-Coat_of_arms_of_Canada.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Costa_Rica">
+		<dbp:name xml:lang="en">Costa Rica</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>5.223.209</dbp:population>
+		<dbp:area>51.100</dbp:area>
+		<dbp:capital>San José</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency> Colón (₡)</dbp:currency>
+		<dbp:callingCode>+506</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://wikitravel.org/upload/shared/a/ac/Costa_Rica_regions_map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/188px-Flag_of_Costa_Rica.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_Costa_Rica.svg/128px-Coat_of_arms_of_Costa_Rica.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Cuba">
+		<dbp:name xml:lang="en">Cuba</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>11.190.706</dbp:population>
+		<dbp:area>109.884</dbp:area>
+		<dbp:capital>Havana</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency> $MN</dbp:currency>
+		<dbp:callingCode>+53</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cu-map.png/525px-Cu-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/188px-Flag_of_Cuba.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Coat_of_arms_of_Cuba.svg/128px-Coat_of_arms_of_Cuba.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mexico">
+		<dbp:name xml:lang="en">Mexico</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>126.002.000</dbp:population>
+		<dbp:area>1.972.550</dbp:area>
+		<dbp:capital>Mexico City</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Mex$</dbp:currency>
+		<dbp:callingCode>+53</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mx-map.png/555px-Mx-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/188px-Flag_of_Mexico.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/122px-Coat_of_arms_of_Mexico.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Nicaragua">
+		<dbp:name xml:lang="en">Nicaragua</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>6.466.000</dbp:population>
+		<dbp:area>130.375</dbp:area>
+		<dbp:capital>Managua</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>C$</dbp:currency>
+		<dbp:callingCode>+505</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.freemapviewer.org/id/map/Map-Nicaragua_1124_100.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/188px-Flag_of_Nicaragua.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Coat_of_arms_of_Nicaragua.svg/128px-Coat_of_arms_of_Nicaragua.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Panama">
+		<dbp:name xml:lang="en">Panama</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>4.487.152</dbp:population>
+		<dbp:area>75.517</dbp:area>
+		<dbp:capital>Panama City</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>(B/.)</dbp:currency>
+		<dbp:callingCode>+507</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pm-map.png/495px-Pm-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/188px-Flag_of_Panama.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Panama.svg/128px-Coat_of_arms_of_Panama.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Saint_Kitts_and_Nevis">
+		<dbp:name xml:lang="en">Saint Kitts and Nevis</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>47,785 jiwa</dbp:population>
+		<dbp:area>261</dbp:area>
+		<dbp:capital>Basseterre</dbp:capital>
+		<dbp:officialLanguage>Ingris</dbp:officialLanguage>
+		<dbp:currency>EC$</dbp:currency>
+		<dbp:callingCode>+1-869</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/96/Saint_Kitts_and_Nevis-CIA_WFB_Map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/188px-Flag_of_Saint_Kitts_and_Nevis.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coat_of_arms_of_Saint_Kitts_and_Nevis_%28variant%29.svg/128px-Coat_of_arms_of_Saint_Kitts_and_Nevis_%28variant%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Saint_Lucia">
+		<dbp:name xml:lang="en">Saint Lucia</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>184.961</dbp:population>
+		<dbp:area>617</dbp:area>
+		<dbp:capital>Castries</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dolar Karibia Timur (EC$) (XCD)</dbp:currency>
+		<dbp:callingCode>++1-758</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.worldatlas.com/upload/98/b1/2d/parishes-of-saint-lucia-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/188px-Flag_of_Saint_Lucia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_arms_of_Saint_Lucia.svg/128px-Coat_of_arms_of_Saint_Lucia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Saint_Vincent_and_the_Grenadines">
+		<dbp:name xml:lang="en">Saint Vincent and The Grenadines</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>103.654</dbp:population>
+		<dbp:area>369</dbp:area>
+		<dbp:capital>Kingstown</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>(EC$)</dbp:currency>
+		<dbp:callingCode>+1-784</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-phV1k-Pg52k/ULvFOj3bV5I/AAAAAAAAGms/nduAhjbCSQk/s1600/large_detailed_political_and_relief_map_of_Saint_Vincent_and_Grenadines.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/188px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_arms_of_Saint_Vincent_and_the_Grenadines.svg/128px-Coat_of_arms_of_Saint_Vincent_and_the_Grenadines.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Trinidad_and_Tobago">
+		<dbp:name xml:lang="en">Republic of Trinidad and Tobago</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>1.534.937</dbp:population>
+		<dbp:area>5.131</dbp:area>
+		<dbp:capital>Port of Spain</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>TT$</dbp:currency>
+		<dbp:callingCode>+1-868</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-pT2kgS52kdA/ULvGWc8Bz6I/AAAAAAAAGnc/ld9nbbVN2Ew/s1600/large_detailed_road_and_physical_map_of_trinidad_and_tobago.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/188px-Flag_of_Trinidad_and_Tobago.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/128px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Argentina">
+		<dbp:name xml:lang="en">Argentina</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>47.327.407</dbp:population>
+		<dbp:area>2.780.400</dbp:area>
+		<dbp:capital>Buenos Aires</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Peso Argentina ($) (ARS)</dbp:currency>
+		<dbp:callingCode>+54</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-CohpjgyOSBM/XDgLPcyzqvI/AAAAAAAADi8/7j-OJEkhM3sKkHFrPj9M0s09eYXmMriLgCLcBGAs/s1600/Peta-Argentina.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/188px-Flag_of_Argentina.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Coat_of_arms_of_Argentina.svg/128px-Coat_of_arms_of_Argentina.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Bolivia">
+		<dbp:name xml:lang="en">Bolivia</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>12.054.379</dbp:population>
+		<dbp:area>1.098.581</dbp:area>
+		<dbp:capital>La Paz</dbp:capital>
+		<dbp:capital>Sucre</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Boliviano (Bs.) (BOB)</dbp:currency>
+		<dbp:callingCode>+591</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-VEQx-GEmQUA/WxFR1dl5pMI/AAAAAAAAAM4/bxu5ZgSbDI0suXeYKbHqSRpSmnTqN0_GgCLcBGAs/s1600/Peta-wilayah-negara-Bolivia-HD.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/188px-Flag_of_Bolivia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Escudo_de_Bolivia.svg/158px-Escudo_de_Bolivia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Brazil">
+		<dbp:name xml:lang="en">Brazil</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>217.240.060</dbp:population>
+		<dbp:area>8.515.767</dbp:area>
+		<dbp:capital>Brasilia</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Real (R$) (BRL)</dbp:currency>
+		<dbp:callingCode>+55</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.shutterstock.com/shutterstock/photos/2316180567/display_1500/stock-vector-states-of-brazil-political-map-federative-units-with-borders-and-capitals-subnational-entities-2316180567.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/188px-Flag_of_Brazil.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Brazil.svg/128px-Coat_of_arms_of_Brazil.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Chile">
+		<dbp:name xml:lang="en">Chile</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>183.430.408</dbp:population>
+		<dbp:area>756.096</dbp:area>
+		<dbp:capital>Santiago</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Peso Chili ($) (CLP)</dbp:currency>
+		<dbp:callingCode>+56</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://2.bp.blogspot.com/-q5GJTstDmS8/XDcD6uJAerI/AAAAAAAADcQ/llDtVxOTUjszmXJicT3yg5JR-f6n91qNACLcBGAs/s1600/Peta-chile.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/188px-Flag_of_Chile.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Coat_of_arms_of_Chile.svg/180px-Coat_of_arms_of_Chile.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Colombia">
+		<dbp:name xml:lang="en">Colombia</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>52.156.254</dbp:population>
+		<dbp:area>1.141.748</dbp:area>
+		<dbp:capital>Bogotá</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Peso Kolombia (COL$) (COP)</dbp:currency>
+		<dbp:callingCode>+57</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Colombia_-_Location_Map_%282013%29_-_COL_-_UNOCHA.svg/langid-250px-Colombia_-_Location_Map_%282013%29_-_COL_-_UNOCHA.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/188px-Flag_of_Colombia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Coat_of_arms_of_Colombia.svg/128px-Coat_of_arms_of_Colombia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Ecuador">
+		<dbp:name xml:lang="en">Ecuador</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>17.289.554</dbp:population>
+		<dbp:area>283.560</dbp:area>
+		<dbp:capital>Quito</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Dolar Amerika Serikat (US$) (USD)</dbp:currency>
+		<dbp:callingCode>+593</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.freemapviewer.org/id/map/Map-Ecuador_1630_100.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/188px-Flag_of_Ecuador.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Coat_of_arms_of_Ecuador.svg/128px-Coat_of_arms_of_Ecuador.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Falkland_Islands">
+		<dbp:name xml:lang="en">Falkland islands</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>3.795</dbp:population>
+		<dbp:area>12.200</dbp:area>
+		<dbp:capital>Stanley</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pound Kepulauan Falkland (FK£) (FKP)</dbp:currency>
+		<dbp:callingCode>+500</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Falkland_Islands_%28Islas_Malvinas%29-CIA_WFB_Map.png/250px-Falkland_Islands_%28Islas_Malvinas%29-CIA_WFB_Map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_Falkland_Islands.svg/188px-Flag_of_the_Falkland_Islands.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Coat_of_arms_of_the_Falkland_Islands.svg/128px-Coat_of_arms_of_the_Falkland_Islands.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Guyana">
+		<dbp:name xml:lang="en">Cooperative Republic of Guyana</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>795.408</dbp:population>
+		<dbp:area>214.970</dbp:area>
+		<dbp:capital>Georgetown</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dolar Guyana (G$) (GYD)</dbp:currency>
+		<dbp:callingCode>+592</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.researchgate.net/publication/257664209/figure/fig10/AS:667859218874375@1536241454308/Map-of-the-Cooperative-Republic-of-Guyana.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/188px-Flag_of_Guyana.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coat_of_arms_of_Guyana.svg/128px-Coat_of_arms_of_Guyana.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Paraguay">
+		<dbp:name xml:lang="en">Paraguay</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>7.356.409</dbp:population>
+		<dbp:area>406.752</dbp:area>
+		<dbp:capital>Asunción</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Guaraní (₲) (PYG)</dbp:currency>
+		<dbp:callingCode>+595</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Pa-map.png/260px-Pa-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/188px-Flag_of_Paraguay.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Paraguay.svg/128px-Coat_of_arms_of_Paraguay.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://dbpedia.org/page/Peru">
+		<dbp:name xml:lang="en">Peru</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>32.275.736</dbp:population>
+		<dbp:area>1.285.216</dbp:area>
+		<dbp:capital>Lima</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Nuevo Sol (S/.) (PEN)</dbp:currency>
+		<dbp:callingCode>+51</dbp:callingCode>
+		<foaf:depiction rdf:resource="http://www.freemapviewer.org/id/map/Map-Peru_1636_25.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/188px-Flag_of_Peru.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Escudo_de_armas_del_Per%C3%BA.svg/128px-Escudo_de_armas_del_Per%C3%BA.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/South_Georgia_and_the_South_Sandwich_Islands">
+		<dbp:name xml:lang="en">South Georgia and the South Sandwich Islands</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>1000</dbp:population>
+		<dbp:area>3.903</dbp:area>
+		<dbp:capital>Grytviken</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pound sterling (GBP)</dbp:currency>
+		<dbp:callingCode>+500</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.gifex.com/images/0X0/2019-02-05-15977/Map_of_the_South_Georgia_South_Sandwich_South_Orkney_Islands.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg/188px-Flag_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Coat_of_arms_of_South_Georgia_and_the_South_Sandwich_Islands.svg/128px-Coat_of_arms_of_South_Georgia_and_the_South_Sandwich_Islands.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Suriname">
+		<dbp:name xml:lang="en">Suriname Republic</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>632.638</dbp:population>
+		<dbp:area>163.821</dbp:area>
+		<dbp:capital>Paramaribo</dbp:capital>
+		<dbp:officialLanguage>Belanda</dbp:officialLanguage>
+		<dbp:currency>Dolar Suriname (SR$) (SRD)</dbp:currency>
+		<dbp:callingCode>+597</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://images.mapsofworld.com/answers/2019/11/map-of-suriname.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/188px-Flag_of_Suriname.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Coat_of_arms_of_Suriname.svg/128px-Coat_of_arms_of_Suriname.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Uruguay">
+		<dbp:name xml:lang="en">Uruguay</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>3.407.213</dbp:population>
+		<dbp:area>176.215</dbp:area>
+		<dbp:capital>Montevideo</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Peso Uruguay ($U) (UYU)</dbp:currency>
+		<dbp:callingCode>+598</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://4.bp.blogspot.com/-beElf3PjUis/XGY2rM7hbuI/AAAAAAAAEp0/gzze5xTAKoQ48fZKEmiNYQVpn0T0sSu9QCLcBGAs/s640/Peta-Uruguay.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/188px-Flag_of_Uruguay.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_arms_of_Uruguay.svg/128px-Coat_of_arms_of_Uruguay.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Venezuela">
+		<dbp:name xml:lang="en">Venezuela</dbp:name>
+		<dbp:continent>America</dbp:continent>
+		<dbp:population>29.789.730</dbp:population>
+		<dbp:area>916.445</dbp:area>
+		<dbp:capital>Caracas</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Bolívar (Bs.F.) (VEF)</dbp:currency>
+		<dbp:callingCode>+58</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-MKLLxr7e-dA/XGZyzQLwdEI/AAAAAAAAEqw/bCA5xPraPyYXEwV8cUjL56jY1bljv15BQCLcBGAs/s1600/Peta-Venezuela.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/188px-Flag_of_Venezuela.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Coat_of_arms_of_Venezuela.svg/128px-Coat_of_arms_of_Venezuela.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Australia">
+		<dbp:name xml:lang="en">Australia</dbp:name>
+		<dbp:continent>Australia</dbp:continent>
+		<dbp:population>27.386.263</dbp:population>
+		<dbp:area>7.692.024</dbp:area>
+		<dbp:capital>Canberra</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dolar Australia (A$) (AUD)</dbp:currency>
+		<dbp:callingCode>+61</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.siplah.pesonaedu.id/uploads/ab2aca732bfa43ef4c3dd8b77120abed2388c86c11ff84a9a1508e3c00c75eb9/120743/495566d2-84af-4b28-b8bf-45ebf1af1591.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/188px-Flag_of_Australia_%28converted%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_Arms_of_Australia.svg/128px-Coat_of_Arms_of_Australia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Netherlands">
+		<dbp:name xml:lang="en">Netherlands</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>17.302.139</dbp:population>
+		<dbp:area>41.543,00</dbp:area>
+		<dbp:capital>Amsterdam</dbp:capital>
+		<dbp:officialLanguage>Belanda</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:currency>Dolar Amerika Serikat ($) (USD)</dbp:currency>
+		<dbp:callingCode>+31</dbp:callingCode>
+		<dbp:callingCode>+599</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.pixabay.com/photo/2015/07/08/10/47/map-835918_960_720.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/188px-Flag_of_the_Netherlands.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/State_coat_of_arms_of_the_Netherlands.svg/165px-State_coat_of_arms_of_the_Netherlands.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Belarus">
+		<dbp:name xml:lang="en">Belarus</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>9.513.505</dbp:population>
+		<dbp:area>207.595,00</dbp:area>
+		<dbp:capital>Minsk</dbp:capital>
+		<dbp:officialLanguage>Belarus</dbp:officialLanguage>
+		<dbp:officialLanguage>Rusia</dbp:officialLanguage>
+		<dbp:currency>Rubel Belarus (Br) (BYN)</dbp:currency>
+		<dbp:callingCode>+375</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://kembangpetedotcom2.files.wordpress.com/2014/05/peta-belarus.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Belarus_%28darker_colors%29.svg/188px-Flag_of_Belarus_%28darker_colors%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg/113px-Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Belgium">
+		<dbp:name xml:lang="en">Belgium</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>11.548.008</dbp:population>
+		<dbp:area>300.528,00</dbp:area>
+		<dbp:capital>Brussels</dbp:capital>
+		<dbp:officialLanguage>Belanda</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:officialLanguage>Jerman</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+32</dbp:callingCode>
+		<foaf:depiction rdf:resource="http://4.bp.blogspot.com/-kGGaphhit4g/UXpaqqWvRbI/AAAAAAAAAns/VOO9qlUtASs/s1600/Peta+Negara+Belgia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/188px-Flag_of_Belgium.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Great_coat_of_arms_of_Belgium.svg/128px-Great_coat_of_arms_of_Belgium.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Bosnia_and_Herzegovina">
+		<dbp:name xml:lang="en">Bosnia and Herzegovina</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>3.575.000</dbp:population>
+		<dbp:area>51.197,00</dbp:area>
+		<dbp:capital>Sarajevo</dbp:capital>
+		<dbp:officialLanguage>Bosnia</dbp:officialLanguage>
+		<dbp:officialLanguage>Kroasia</dbp:officialLanguage>
+		<dbp:officialLanguage>Serbia</dbp:officialLanguage>
+		<dbp:currency>Mark Bosnia dan Herzegovina (KM) (BAM)</dbp:currency>
+		<dbp:callingCode>+387</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Map_Bih_entities.png/240px-Map_Bih_entities.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/188px-Flag_of_Bosnia_and_Herzegovina.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_Bosnia_and_Herzegovina.svg/128px-Coat_of_arms_of_Bosnia_and_Herzegovina.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Bulgaria">
+		<dbp:name xml:lang="en">Bulgaria</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>6.520.314</dbp:population>
+		<dbp:area>110.994,00</dbp:area>
+		<dbp:capital>Sofia</dbp:capital>
+		<dbp:officialLanguage>Bulgaria</dbp:officialLanguage>
+		<dbp:currency>Lev Bulgaria (лв.) (BGN)</dbp:currency>
+		<dbp:callingCode>+359</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://altalanossuli.hu/wp-content/uploads/2017/03/bulgaria.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/188px-Flag_of_Bulgaria.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coat_of_arms_of_Bulgaria.svg/140px-Coat_of_arms_of_Bulgaria.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Croatia">
+		<dbp:name xml:lang="en">Croatia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>4.002.139</dbp:population>
+		<dbp:area>56.594,00</dbp:area>
+		<dbp:capital>Zagreb</dbp:capital>
+		<dbp:officialLanguage>Kroasia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+385</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-5jnm5wbNHlk/XDdepc9EIhI/AAAAAAAADfY/A5uzvOHsc90MkqotWHb9bUnn_-gXU115gCLcBGAs/s1600/Peta-Kroasia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/188px-Flag_of_Croatia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_Croatia.svg/98px-Coat_of_arms_of_Croatia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Cyprus">
+		<dbp:name xml:lang="en">Cyprus</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>1.295.102</dbp:population>
+		<dbp:area>9.251,00</dbp:area>
+		<dbp:capital>Nikosia</dbp:capital>
+		<dbp:officialLanguage>Yunani</dbp:officialLanguage>
+		<dbp:officialLanguage>Turki</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+357</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/cyprus-1.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/188px-Flag_of_Cyprus.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coat_of_arms_of_Cyprus_%282006%29.svg/128px-Coat_of_arms_of_Cyprus_%282006%29.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/%C4%8Cesk%C3%A1">
+		<dbp:name xml:lang="en">Ceska</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>10.516.707</dbp:population>
+		<dbp:area>78.866,00</dbp:area>
+		<dbp:capital>Praha</dbp:capital>
+		<dbp:officialLanguage>Ceska</dbp:officialLanguage>
+		<dbp:currency>Koruna (Kč) (CZK)</dbp:currency>
+		<dbp:callingCode>+420</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-lpiQX9xBN30/UPWtFL1OvDI/AAAAAAAAHls/R7qD8bAToKU/s1600/czech-republic-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/188px-Flag_of_the_Czech_Republic.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Coat_of_arms_of_the_Czech_Republic.svg/117px-Coat_of_arms_of_the_Czech_Republic.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Denmark">
+		<dbp:name xml:lang="en">Denmark</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>5.920.527</dbp:population>
+		<dbp:area>42.933,00</dbp:area>
+		<dbp:capital>Coppenhagen</dbp:capital>
+		<dbp:officialLanguage>Denmark</dbp:officialLanguage>
+		<dbp:currency>Krona Denmark (kr.) (DKK)</dbp:currency>
+		<dbp:callingCode>+45 (Denmark)</dbp:callingCode>
+		<dbp:callingCode>+298 (Kepulauan Faroe)</dbp:callingCode>
+		<dbp:callingCode>+299 (Greenland)</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://4.bp.blogspot.com/-AP3TltasuPM/WwthhrL4ELI/AAAAAAAAAII/hGTgVOWNGgQVVMXfWyZyc1yMaIt13gdiACLcBGAs/s400/peta-denmark.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/188px-Flag_of_Denmark.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/National_Coat_of_arms_of_Denmark.svg/105px-National_Coat_of_arms_of_Denmark.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Estonia">
+		<dbp:name xml:lang="en">Estonia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>1.406.796</dbp:population>
+		<dbp:area>45.227,00</dbp:area>
+		<dbp:capital>Tallinn</dbp:capital>
+		<dbp:officialLanguage>Esti'</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+372</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://static8.depositphotos.com/1004216/918/v/950/depositphotos_9180312-stock-illustration-republic-of-estonia-vector-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/188px-Flag_of_Estonia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Coat_of_arms_of_Estonia.svg/128px-Coat_of_arms_of_Estonia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Finland">
+		<dbp:name xml:lang="en">Finland</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>5.553.000</dbp:population>
+		<dbp:area>338.424,00</dbp:area>
+		<dbp:capital>Helsinki</dbp:capital>
+		<dbp:officialLanguage>Finlandia</dbp:officialLanguage>
+		<dbp:officialLanguage>Swedia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+358</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Coat_of_arms_of_Finland.svg/113px-Coat_of_arms_of_Finland.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/188px-Flag_of_Finland.svg.png" />
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-0jar255HE9c/XDvvctYd8UI/AAAAAAAADsU/SvJ86uukPzcnVne_QCsOBxl5UwlqbWwWwCLcBGAs/s640/Peta-politik-Finlandia.jpg" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/France">
+		<dbp:name xml:lang="en">France</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>67.897.000</dbp:population>
+		<dbp:area>640.679,00</dbp:area>
+		<dbp:capital>Paris</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:currency>Franc CFP (₣) (XPF)</dbp:currency>
+		<dbp:callingCode>+33</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.ap-southeast-1.amazonaws.com/2019/01/Peta-wilayah-Prancis.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_France_official.svg/188px-Flag_of_France_official.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Armoiries_r%C3%A9publique_fran%C3%A7aise.svg/128px-Armoiries_r%C3%A9publique_fran%C3%A7aise.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Georgia_(country)">
+		<dbp:name xml:lang="en">Georgia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>4,012,104</dbp:population>
+		<dbp:area>69.420</dbp:area>
+		<dbp:capital>Tbilisi</dbp:capital>
+		<dbp:officialLanguage>Georgia</dbp:officialLanguage>
+		<dbp:currency>Lari (GEL)</dbp:currency>
+		<dbp:callingCode>+995</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://static.republika.co.id/uploads/images/inpicture_slide/peta-georgia-_120214080223-745.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/188px-Flag_of_Georgia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/150px-Greater_coat_of_arms_of_Georgia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Germany">
+		<dbp:name xml:lang="en">Germany</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>83.695.430</dbp:population>
+		<dbp:area>357.592,00</dbp:area>
+		<dbp:capital>Berlin</dbp:capital>
+		<dbp:officialLanguage>Jerman</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+49</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.superprof.co.id/blog/wp-content/uploads/2020/03/germany-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/188px-Flag_of_Germany.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coat_of_arms_of_Germany.svg/102px-Coat_of_arms_of_Germany.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Greece">
+		<dbp:name xml:lang="en">Greece</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>10.533.871</dbp:population>
+		<dbp:area>131.957,00</dbp:area>
+		<dbp:capital>Athena</dbp:capital>
+		<dbp:officialLanguage>Yunani </dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+30</dbp:callingCode>
+		<foaf:depiction rdf:resource="http://4.bp.blogspot.com/-rDM7gRER4uI/UJ4fFLxC00I/AAAAAAAAL-I/BYHkHmWgnlQ/s1600/3+Peta+Negara+Yunani.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/188px-Flag_of_Greece.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coat_of_arms_of_Greece.svg/128px-Coat_of_arms_of_Greece.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Hungary">
+		<dbp:name xml:lang="en">Hungary</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>9.749.763</dbp:population>
+		<dbp:area>93.030,00</dbp:area>
+		<dbp:capital>Budapest</dbp:capital>
+		<dbp:officialLanguage>Hungaria</dbp:officialLanguage>
+		<dbp:currency>Forint (Ft) (HUF)</dbp:currency>
+		<dbp:callingCode>+36</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.amazonaws.com/2021/12/Peta-Hongaria.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/188px-Flag_of_Hungary.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/60px-Coat_of_arms_of_Hungary.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Iceland">
+		<dbp:name xml:lang="en">Iceland</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>387.111</dbp:population>
+		<dbp:area>102.775,00</dbp:area>
+		<dbp:capital>Reykjavik</dbp:capital>
+		<dbp:officialLanguage>Islandia</dbp:officialLanguage>
+		<dbp:currency>Króna Islandia (kr) (ISK)</dbp:currency>
+		<dbp:callingCode>+354</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://mmc.tirto.id/image/2021/06/23/peta-islandia-istockphoto_ratio-16x9.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/188px-Flag_of_Iceland.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/129px-Coat_of_arms_of_Iceland.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Ireland">
+		<dbp:name xml:lang="en">Ireland</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>5.159.536</dbp:population>
+		<dbp:area>70.273,00</dbp:area>
+		<dbp:capital>Dublin</dbp:capital>
+		<dbp:officialLanguage>Irlandia</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+353</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://2.bp.blogspot.com/-Gcp7f-OPvms/XD9P8YM4j6I/AAAAAAAAD5E/MgIrAfXZ_MwzzMmoMtOKk_cAIVhS9aN4ACLcBGAs/s640/Peta-Irlandia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/188px-Flag_of_Ireland.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Coat_of_arms_of_Ireland.svg/98px-Coat_of_arms_of_Ireland.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Italy">
+		<dbp:name xml:lang="en">Italy</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>61.095.551</dbp:population>
+		<dbp:area>301.338,00</dbp:area>
+		<dbp:capital>Roma</dbp:capital>
+		<dbp:officialLanguage>Italia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+39</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.amazonaws.com/2021/12/Peta-Italia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/188px-Flag_of_Italy.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/113px-Emblem_of_Italy.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Latvia">
+		<dbp:name xml:lang="en">Latvia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>1.823.530</dbp:population>
+		<dbp:area>64.589,00</dbp:area>
+		<dbp:capital>Riga</dbp:capital>
+		<dbp:officialLanguage>Latvian</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+371</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-RBdDsIFPJos/XEKJ-WVKt2I/AAAAAAAAD_I/10fIaUa5AaMcFPEXUTZ0L9iWhFcr-9_KwCLcBGAs/w1200-h630-p-k-no-nu/Peta-Latvia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/188px-Flag_of_Latvia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_Latvia.svg/128px-Coat_of_arms_of_Latvia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Liechtenstein">
+		<dbp:name xml:lang="en">Liechtenstein</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>39.663</dbp:population>
+		<dbp:area>160,00</dbp:area>
+		<dbp:capital>Vaduz</dbp:capital>
+		<dbp:officialLanguage>Jerman</dbp:officialLanguage>
+		<dbp:currency>Franc Swiss (SFr) (CHF)</dbp:currency>
+		<dbp:callingCode>+423</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Liechtenstein_-_Gemeinden_mit_Exklaven.png/260px-Liechtenstein_-_Gemeinden_mit_Exklaven.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Liechtenstein.svg/188px-Flag_of_Liechtenstein.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Staatswappen-Liechtensteins.svg/120px-Staatswappen-Liechtensteins.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Lithuania">
+		<dbp:name xml:lang="en">Lithuania</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>2,867,725</dbp:population>
+		<dbp:area>65.300,00</dbp:area>
+		<dbp:capital>Vilnius</dbp:capital>
+		<dbp:officialLanguage>Lithuanian</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+370</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-BfKy-Xib9kc/XEM4pV-2cKI/AAAAAAAAECI/l7qvOJvgmUkcq6kGT-x9YfFInCZ7pJVKQCLcBGAs/s640/Peta-politik-Lithuania-2002.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/188px-Flag_of_Lithuania.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coat_of_arms_of_Lithuania.svg/128px-Coat_of_arms_of_Lithuania.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Luxembourg">
+		<dbp:name xml:lang="en">Luxembourg</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>661.397</dbp:population>
+		<dbp:area>2.586,00</dbp:area>
+		<dbp:capital>Luksemburg</dbp:capital>
+		<dbp:officialLanguage>Luksemburg</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+352</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Lu-map.png/225px-Lu-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/188px-Flag_of_Luxembourg.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg/128px-Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/North_Macedonia">
+		<dbp:name xml:lang="en">North Macedonia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>2.083.718</dbp:population>
+		<dbp:area>25.713,00</dbp:area>
+		<dbp:capital>Skopje</dbp:capital>
+		<dbp:officialLanguage>Makedonia</dbp:officialLanguage>
+		<dbp:currency>Denar Makedonia (ден) (MKD)</dbp:currency>
+		<dbp:callingCode>+389</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://4.bp.blogspot.com/-IKwEsu65Iog/XEM8iZ_C_2I/AAAAAAAAECk/UqiHlXd3k80d9uQhY5RLnee5hOhYO0q-wCLcBGAs/s1600/Peta-politik-Makedonia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/188px-Flag_of_North_Macedonia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coat_of_arms_of_North_Macedonia.svg/128px-Coat_of_arms_of_North_Macedonia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Malta">
+		<dbp:name xml:lang="en">Malta</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>535.622</dbp:population>
+		<dbp:area>316,00</dbp:area>
+		<dbp:capital>Valleta</dbp:capital>
+		<dbp:officialLanguage>Maltese</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+356</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.orangesmile.com/common/img_city_maps/malta-island-map-0.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/188px-Flag_of_Malta.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Malta.svg/135px-Coat_of_arms_of_Malta.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Moldova">
+		<dbp:name xml:lang="en">Moldova</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>2,512,758</dbp:population>
+		<dbp:area>33,84</dbp:area>
+		<dbp:capital>Chișinău</dbp:capital>
+		<dbp:officialLanguage>Romanian</dbp:officialLanguage>
+		<dbp:currency>Leu Moldova (MDL)</dbp:currency>
+		<dbp:callingCode>+373</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Republic_of_Moldova_Map_of_the_regions_affected_by_COVID-19.svg/614px-Republic_of_Moldova_Map_of_the_regions_affected_by_COVID-19.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Moldova.svg/188px-Flag_of_Moldova.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Coat_of_arms_of_Moldova.svg/128px-Coat_of_arms_of_Moldova.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Monaco">
+		<dbp:name xml:lang="en">Monaco</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>36.250</dbp:population>
+		<dbp:area>2,02</dbp:area>
+		<dbp:capital>Monako</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+377</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdns.klimg.com/dream.co.id/resources//real/2023/06/05/1096883/peta-moanco-diapit-negara-prancis.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/188px-Flag_of_Monaco.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Coat_of_arms_of_Monaco.svg/165px-Coat_of_arms_of_Monaco.svg.png" />
+	</rdf:Description>
+    
+    <rdf:Description rdf:about="https://dbpedia.org/page/Montenegro">
+		<dbp:name xml:lang="en">Montenegro</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>637.739</dbp:population>
+		<dbp:area>13.812,00</dbp:area>
+		<dbp:capital>Podgorica</dbp:capital>
+		<dbp:officialLanguage>Montenegro</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+382</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn4.vectorstock.com/i/1000x1000/72/98/montenegro-map-vector-3077298.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/188px-Flag_of_Montenegro.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coat_of_arms_of_Montenegro.svg/113px-Coat_of_arms_of_Montenegro.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Norway">
+		<dbp:name xml:lang="en">Norway</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>5.788.984</dbp:population>
+		<dbp:area>385.207,00</dbp:area>
+		<dbp:capital>Oslo</dbp:capital>
+		<dbp:officialLanguage>Norwegia</dbp:officialLanguage>
+		<dbp:currency>Krona Norwegia (kr) (NOK)</dbp:currency>
+		<dbp:callingCode>+47</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.shutterstock.com/shutterstock/photos/272005061/display_1500/stock-vector-norway-political-map-with-capital-oslo-national-borders-important-cities-rivers-and-lakes-272005061.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/188px-Flag_of_Norway.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coat_of_arms_of_Norway.svg/98px-Coat_of_arms_of_Norway.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Poland">
+		<dbp:name xml:lang="en">Poland</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>38.036.118</dbp:population>
+		<dbp:area>313.931,00</dbp:area>
+		<dbp:capital>Warsawa</dbp:capital>
+		<dbp:officialLanguage>Polandia</dbp:officialLanguage>
+		<dbp:currency>Złoty (zł) (PLN)</dbp:currency>
+		<dbp:callingCode>+48</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/EC_map_of_poland.png/220px-EC_map_of_poland.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/188px-Flag_of_Poland.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Herb_Polski.svg/113px-Herb_Polski.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Portugal">
+		<dbp:name xml:lang="en">Portugal</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>10.352.042</dbp:population>
+		<dbp:area>92.212,00</dbp:area>
+		<dbp:capital>Lisboa</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+351</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Po-map.png/300px-Po-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/188px-Flag_of_Portugal.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Portugal.svg/165px-Coat_of_arms_of_Portugal.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Romania">
+		<dbp:name xml:lang="en">Romania</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>19.038.098</dbp:population>
+		<dbp:area>238.391,00</dbp:area>
+		<dbp:capital>Bukares</dbp:capital>
+		<dbp:officialLanguage>Rumania</dbp:officialLanguage>
+		<dbp:currency>Leu Rumania (L) (RON)</dbp:currency>
+		<dbp:callingCode>+40</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-W6EQoTaqTVY/XE0fVZP77zI/AAAAAAAAEVg/1YJL0oRgsGYgxUNRJMPrxLEc-jKDRnG9gCLcBGAs/s1600/Peta-politik-Rumania.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/188px-Flag_of_Romania.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Romania.svg/113px-Coat_of_arms_of_Romania.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Russia">
+		<dbp:name xml:lang="en">Russia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>147.164.296,00</dbp:population>
+		<dbp:area>17.125.191</dbp:area>
+		<dbp:capital>Moskwa</dbp:capital>
+		<dbp:officialLanguage>Rusia</dbp:officialLanguage>
+		<dbp:currency>Rubel Rusia (₽) (RUB)</dbp:currency>
+		<dbp:callingCode>+7</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.tataruang.id/wp-content/uploads/2022/08/peta-negara-rusia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Russia_with_border.svg/188px-Flag_of_Russia_with_border.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/117px-Coat_of_Arms_of_the_Russian_Federation.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/San_Marino">
+		<dbp:name xml:lang="en">San Marino</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>33.600</dbp:population>
+		<dbp:area>61,20</dbp:area>
+		<dbp:capital>San Marino</dbp:capital>
+		<dbp:officialLanguage>Italia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+378</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://2.bp.blogspot.com/-_OkI5M6FJgM/XG1uokr3cEI/AAAAAAAAAMA/xHqhfxAeUgw_QMpsfpiuN9lNuFp5c_EqACLcBGAs/s320/san%2Bmarino%2B2.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/188px-Flag_of_San_Marino.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_San_Marino.svg/128px-Coat_of_arms_of_San_Marino.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Serbia">
+		<dbp:name xml:lang="en">Serbia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>7.197.105</dbp:population>
+		<dbp:area>77.474,00</dbp:area>
+		<dbp:capital>Beograd</dbp:capital>
+		<dbp:officialLanguage>Serbia</dbp:officialLanguage>
+		<dbp:currency>Dinar Serbia (дин) (RSD)</dbp:currency>
+		<dbp:callingCode>+381</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-0JoitDuaRcs/UKPHgL7v8HI/AAAAAAAAMeM/dymboXuOKZs/s1600/3+Peta+Negara+serbia+montenegro.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/188px-Flag_of_Serbia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Serbia.svg/128px-Coat_of_arms_of_Serbia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Slovakia">
+		<dbp:name xml:lang="en">Slovakia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>5.464.460</dbp:population>
+		<dbp:area>49.035,00</dbp:area>
+		<dbp:capital>Bratislava</dbp:capital>
+		<dbp:officialLanguage>Slowakia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+421</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://3.bp.blogspot.com/-bRA_4cCRXk4/XF1vcRFVqQI/AAAAAAAAEas/MLpugMgETtAsciQ7lPvVcrFu4dBC2yMqgCLcBGAs/s640/Peta-Slovakia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/188px-Flag_of_Slovakia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/102px-Coat_of_arms_of_Slovakia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Slovenia">
+		<dbp:name xml:lang="en">Slovenia</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>2.108.708</dbp:population>
+		<dbp:area>20.273,00</dbp:area>
+		<dbp:capital>Ljubljana</dbp:capital>
+		<dbp:officialLanguage>Slovenia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+386</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://2.bp.blogspot.com/-V3EljHH1rKM/XF13s16MYSI/AAAAAAAAEbI/h--K_xprkF8Oq4oEHS1JAOTaZGgdhsqHwCLcBGAs/s1600/Peta-Slovenia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/188px-Flag_of_Slovenia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_Slovenia.svg/90px-Coat_of_arms_of_Slovenia.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Spain">
+		<dbp:name xml:lang="en">Spain</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>47.163.418</dbp:population>
+		<dbp:area>505.990,00</dbp:area>
+		<dbp:capital>Madrid</dbp:capital>
+		<dbp:officialLanguage>Spanyol</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+34</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://1.bp.blogspot.com/-u7LoQN37VMc/W50oojO7dAI/AAAAAAAAGUE/vTmtCQHeW5MtJhhYmU6TIJevrmiwAdnwACLcBGAs/s1600/peta%2Bnegara%2Bspanyol.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/188px-Flag_of_Spain.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Escudo_de_Espa%C3%B1a_%28mazonado%29.svg/128px-Escudo_de_Espa%C3%B1a_%28mazonado%29.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Sweden">
+		<dbp:name xml:lang="en">Sweden</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>10.481.937</dbp:population>
+		<dbp:area>450.295,00</dbp:area>
+		<dbp:capital>Stockholm</dbp:capital>
+		<dbp:officialLanguage>Swedia</dbp:officialLanguage>
+		<dbp:currency>Krona Swedia (ks) (SEK)</dbp:currency>
+		<dbp:callingCode>+46</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://pinhome-blog-assets-public.s3.amazonaws.com/2021/12/Peta-Swedia.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/188px-Flag_of_Sweden.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Great_coat_of_arms_of_Sweden.svg/128px-Great_coat_of_arms_of_Sweden.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Switzerland">
+		<dbp:name xml:lang="en">Switzerland</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>8.636.896</dbp:population>
+		<dbp:area>41.285</dbp:area>
+		<dbp:capital>Bern</dbp:capital>
+		<dbp:officialLanguage>Romansh</dbp:officialLanguage>
+		<dbp:currency>Franc Swiss (SFr) (CHF)</dbp:currency>
+		<dbp:callingCode>+41</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://suneducationgroup.com/wp-content/uploads/2014/04/Peta-Negara-Swiss-HD.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/143px-Flag_of_Switzerland_%28Pantone%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Coat_of_Arms_of_Switzerland_%28Pantone%29.svg/128px-Coat_of_Arms_of_Switzerland_%28Pantone%29.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Turkey">
+		<dbp:name xml:lang="en">Turkey</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>84.680.273</dbp:population>
+		<dbp:area>783.562</dbp:area>
+		<dbp:capital>Ankara</dbp:capital>
+		<dbp:officialLanguage>Turki</dbp:officialLanguage>
+		<dbp:currency>Lira Turki (₺) (TRY)</dbp:currency>
+		<dbp:callingCode>+90</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01gxjeaxmhe9qhfs4djv6jg44b.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/188px-Flag_of_Turkey.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/128px-Emblem_of_Turkey.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Ukraine">
+		<dbp:name xml:lang="en">Ukraine</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>41.167.336</dbp:population>
+		<dbp:area>603.628</dbp:area>
+		<dbp:capital>Kyiv</dbp:capital>
+		<dbp:officialLanguage>Ukraina</dbp:officialLanguage>
+		<dbp:currency>Hryvnia (₴) (UAH)</dbp:currency>
+		<dbp:callingCode>+380</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/3/3f/Map_of_Ukraine_with_Cities.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/188px-Flag_of_Ukraine.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/128px-Lesser_Coat_of_Arms_of_Ukraine.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/United_Kingdom">
+		<dbp:name xml:lang="en">United Kingdom</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>67,326,569</dbp:population>
+		<dbp:area>242.495,00</dbp:area>
+		<dbp:capital>London</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pound sterling (GBP)</dbp:currency>
+		<dbp:callingCode>+44</dbp:callingCode>
+		<foaf:depiction rdf:resource="http://pinkkorset.com/wp-content/uploads/2014/04/peta-uk.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/188px-Flag_of_the_United_Kingdom_%283-5%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg/128px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Vatican_City">
+		<dbp:name xml:lang="en">Vatican City</dbp:name>
+		<dbp:continent>Europe</dbp:continent>
+		<dbp:population>825</dbp:population>
+		<dbp:area>0,49</dbp:area>
+		<dbp:capital>Vatikan</dbp:capital>
+		<dbp:officialLanguage>Italia</dbp:officialLanguage>
+		<dbp:currency>Euro (€) (EUR)</dbp:currency>
+		<dbp:callingCode>+379</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vatican_City_map_EN.svg/1200px-Vatican_City_map_EN.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_the_Vatican_City_%282001%E2%80%932023%29.svg/188px-Flag_of_the_Vatican_City_%282001%E2%80%932023%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Coat_of_arms_of_Vatican_City_State_-_2023_version.svg/128px-Coat_of_arms_of_Vatican_City_State_-_2023_version.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/South_Africa">
+		<dbp:name xml:lang="en">South Africa</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>60.142.978</dbp:population>
+		<dbp:area>1.219.912</dbp:area>
+		<dbp:capital>Kota Tanjung (legislatif)</dbp:capital>
+		<dbp:capital>Pretoria (eksekutif)</dbp:capital>
+		<dbp:capital>Bloemfontein (yudikatif)</dbp:capital>
+		<dbp:officialLanguage>Afrikaans</dbp:officialLanguage>
+		<dbp:currency>Rand Afrika Selatan (R) (ZAR)</dbp:currency>
+		<dbp:callingCode>+27</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/south_africa_prov_map2.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/188px-Flag_of_South_Africa.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/id/thumb/a/a0/Coat_of_arms_of_South_Africa.png/128px-Coat_of_arms_of_South_Africa.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Algeria">
+		<dbp:name xml:lang="en">Algeria</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>44.700.000</dbp:population>
+		<dbp:area>2.381.741</dbp:area>
+		<dbp:capital>Aljir</dbp:capital>
+		<dbp:officialLanguage>Arab dan Berber</dbp:officialLanguage>
+		<dbp:currency>Dinar Aljazair (دج)(DZD)</dbp:currency>
+		<dbp:callingCode>+213</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Algeria-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/188px-Flag_of_Algeria.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Emblem_of_Algeria.svg/128px-Emblem_of_Algeria.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Angola">
+		<dbp:name xml:lang="en">Angola</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>34.795.287</dbp:population>
+		<dbp:area>1.246.700</dbp:area>
+		<dbp:capital>Luanda</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Kwanza(Kz)(AOA)</dbp:currency>
+		<dbp:callingCode>+244</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/angola/angola-provinces-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/188px-Flag_of_Angola.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Emblem_of_Angola.svg/128px-Emblem_of_Angola.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Benin">
+		<dbp:name xml:lang="en">Benin</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>13.754.688</dbp:population>
+		<dbp:area>114.763</dbp:area>
+		<dbp:capital>Porto-Novo</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:officialLanguage>Fon</dbp:officialLanguage>
+		<dbp:officialLanguage>Yoruba</dbp:officialLanguage>
+		<dbp:currency> Franc CFA Afrika Barat (CFA)(XOF)</dbp:currency>
+		<dbp:callingCode>+229</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/benin-administrative-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/188px-Flag_of_Benin.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Coat_of_arms_of_Benin.svg/128px-Coat_of_arms_of_Benin.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Botswana">
+		<dbp:name xml:lang="en">Botswana</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>2.384.246</dbp:population>
+		<dbp:area>581.730</dbp:area>
+		<dbp:capital>Gaborone</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pula (P)(BWP)</dbp:currency>
+		<dbp:callingCode>+267</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/botswana-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_Botswana.svg/188px-Flag_of_Botswana.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Coat_of_arms_of_Botswana.svg/128px-Coat_of_arms_of_Botswana.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Burkina_Faso">
+		<dbp:name xml:lang="en">Burkina Faso</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>21.935.389</dbp:population>
+		<dbp:area>274.200</dbp:area>
+		<dbp:capital>Ouagadougou</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (CFA)(XOF)</dbp:currency>
+		<dbp:callingCode>+226</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/burkina-faso-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/188px-Flag_of_Burkina_Faso.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/128px-Coat_of_arms_of_Burkina_Faso.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Burundi">
+		<dbp:name xml:lang="en">Burundi</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>11.865.821</dbp:population>
+		<dbp:area>27.834</dbp:area>
+		<dbp:capital>Gitega (Politik)</dbp:capital>
+		<dbp:capital>Bujumbura (Ekonomi)</dbp:capital>
+		<dbp:officialLanguage>Kirundi</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc Burundi (FBu)(BIF)</dbp:currency>
+		<dbp:callingCode>+257</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/burundi_map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Burundi.svg/188px-Flag_of_Burundi.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Coat_of_arms_of_Burundi.svg/128px-Coat_of_arms_of_Burundi.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Chad">
+		<dbp:name xml:lang="en">Chad</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>17.963.211</dbp:population>
+		<dbp:area>1.284.000</dbp:area>
+		<dbp:capital>N'Djamena</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (FCFA)(XAF)</dbp:currency>
+		<dbp:callingCode>+235</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Chad-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_Chad.svg/188px-Flag_of_Chad.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Coat_of_arms_of_Chad.svg/128px-Coat_of_arms_of_Chad.svg.png" />
+	</rdf:Description>
+
+    <rdf:Description rdf:about="https://dbpedia.org/page/Eritrea">
+		<dbp:name xml:lang="en">Eritrea</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>6.209.262</dbp:population>
+		<dbp:area>117.600</dbp:area>
+		<dbp:capital>Asmara</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:officialLanguage>Tigrigna</dbp:officialLanguage>
+		<dbp:currency>Nakfa (ናቕፋ)(ERN)</dbp:currency>
+		<dbp:callingCode>+291</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Eritrea-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Eritrea_Flag_plain.svg/188px-Eritrea_Flag_plain.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emblem_of_Eritrea_%28or_argent_azur%29.svg/128px-Emblem_of_Eritrea_%28or_argent_azur%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Eswatini">
+		<dbp:name xml:lang="en">Eswatini</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>1.136.281</dbp:population>
+		<dbp:area>17.364</dbp:area>
+		<dbp:capital>Mbabane (eksekutif)</dbp:capital>
+		<dbp:capital>Lobamba (legislatif)</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Swati</dbp:officialLanguage>
+		<dbp:currency>Lilangeni (SZL)</dbp:currency>
+		<dbp:currency>Rand Afrika Selatan (ZAR)</dbp:currency>
+		<dbp:callingCode>+268</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://images.mapsofworld.com/swaziland/swaziland-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/188px-Flag_of_Eswatini.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coat_of_arms_of_Eswatini.svg/165px-Coat_of_arms_of_Eswatini.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Ethiopia">
+		<dbp:name xml:lang="en">Ethiopia</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>113.656.596</dbp:population>
+		<dbp:area>1.104.300</dbp:area>
+		<dbp:capital>Addis Ababa</dbp:capital>
+		<dbp:officialLanguage>Amharik</dbp:officialLanguage>
+		<dbp:officialLanguage>Afar</dbp:officialLanguage>
+		<dbp:officialLanguage>Oromo</dbp:officialLanguage>
+		<dbp:officialLanguage>Somali</dbp:officialLanguage>
+		<dbp:officialLanguage>Tigrinya</dbp:officialLanguage>
+		<dbp:currency>Birr (ብር)(ETB)</dbp:currency>
+		<dbp:callingCode>+251</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Ethiopia-Political-Map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/188px-Flag_of_Ethiopia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Emblem_of_Ethiopia.svg/128px-Emblem_of_Ethiopia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Gabon">
+		<dbp:name xml:lang="en">Gabon</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>2.340.613</dbp:population>
+		<dbp:area>267.667</dbp:area>
+		<dbp:capital>Libreville</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah(XAF)</dbp:currency>
+		<dbp:callingCode>+241</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/gabon/gabon-provinces-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/188px-Flag_of_Gabon.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/165px-Coat_of_arms_of_Gabon.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/The_Gambia">
+		<dbp:name xml:lang="en">The Gambia</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>2.413.403</dbp:population>
+		<dbp:area>10.689</dbp:area>
+		<dbp:capital>Banjul</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dalasi (GMD)</dbp:currency>
+		<dbp:callingCode>+220</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/3/3b/Gambia-map-political.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/188px-Flag_of_The_Gambia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_The_Gambia.svg/128px-Coat_of_arms_of_The_Gambia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Ghana">
+		<dbp:name xml:lang="en">Ghana</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>32.103.042</dbp:population>
+		<dbp:area>238.535</dbp:area>
+		<dbp:capital>Accra</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Cedi (GH₵)(GHC)</dbp:currency>
+		<dbp:callingCode>+233</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/ghana_map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/188px-Flag_of_Ghana.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Coat_of_arms_of_Ghana.svg/128px-Coat_of_arms_of_Ghana.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Guinea">
+		<dbp:name xml:lang="en">Guinea</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>13.237.832</dbp:population>
+		<dbp:area>245.857</dbp:area>
+		<dbp:capital>Conakry</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc Guinea (FG)(GNF)</dbp:currency>
+		<dbp:callingCode>+224</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/guinea-administrative-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/188px-Flag_of_Guinea.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_arms_of_Guinea.svg/128px-Coat_of_arms_of_Guinea.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Guinea-Bissau">
+		<dbp:name xml:lang="en">Guinea-Bissau</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>2.026.778</dbp:population>
+		<dbp:area>36.125</dbp:area>
+		<dbp:capital>Bissau</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (CFA)(XOF)</dbp:currency>
+		<dbp:callingCode>+245</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/guinea-bissau-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/188px-Flag_of_Guinea-Bissau.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Emblem_of_Guinea-Bissau.svg/128px-Emblem_of_Guinea-Bissau.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Equatorial_Guinea">
+		<dbp:name xml:lang="en">Equatorial Guinea</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>1.679.172</dbp:population>
+		<dbp:area>1.679.172</dbp:area>
+		<dbp:capital>28.050</dbp:capital>
+		<dbp:officialLanguage>Malabo</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (FCFA)(XAF)</dbp:currency>
+		<dbp:callingCode>+240</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Equatorial_Guinea_Map.png/483px-Equatorial_Guinea_Map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/188px-Flag_of_Equatorial_Guinea.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_arms_of_Equatorial_Guinea.svg/128px-Coat_of_arms_of_Equatorial_Guinea.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Djibouti">
+		<dbp:name xml:lang="en">Djibouti</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>957.273</dbp:population>
+		<dbp:area>23.200</dbp:area>
+		<dbp:capital>Djibouti</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc Djibouti (Fdj)(DJF)</dbp:currency>
+		<dbp:callingCode>+253</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn4.vectorstock.com/i/1000x1000/23/93/republic-of-djibouti-map-vector-2972393.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/188px-Flag_of_Djibouti.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Emblem_of_Djibouti.svg/128px-Emblem_of_Djibouti.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Cameroon">
+		<dbp:name xml:lang="en">Cameroon</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>29.321.637</dbp:population>
+		<dbp:area>475.442</dbp:area>
+		<dbp:capital>Yaounde</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (FCFA)(XAF)</dbp:currency>
+		<dbp:callingCode>+237</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/cameroon-administrative-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/188px-Flag_of_Cameroon.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Coat_of_arms_of_Cameroon.svg/128px-Coat_of_arms_of_Cameroon.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Kenya">
+		<dbp:name xml:lang="en">Kenya</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>55.864.655</dbp:population>
+		<dbp:area>580.367</dbp:area>
+		<dbp:capital>Nairobi</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Shilling Kenya (KSh)(KES)</dbp:currency>
+		<dbp:callingCode>+254</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Kenya-Map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/188px-Flag_of_Kenya.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/137px-Coat_of_arms_of_Kenya_%28Official%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Lesotho">
+		<dbp:name xml:lang="en">Lesotho</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>2.281.000</dbp:population>
+		<dbp:area>30.355</dbp:area>
+		<dbp:capital>Maseru</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage> Sesotho</dbp:officialLanguage>
+		<dbp:currency>Loti (M)(LSL)</dbp:currency>
+		<dbp:callingCode>+266</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/lesotho/lesotho-districts-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/188px-Flag_of_Lesotho.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_Lesotho.svg/149px-Coat_of_arms_of_Lesotho.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Liberia">
+		<dbp:name xml:lang="en">Liberia</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>5.358.483</dbp:population>
+		<dbp:area>111.369</dbp:area>
+		<dbp:capital>Monrovia</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dolar Liberia1 (L$)(LRD)</dbp:currency>
+		<dbp:callingCode>+231</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/liberia/liberia-counties-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/188px-Flag_of_Liberia.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coat_of_arms_of_Liberia.svg/128px-Coat_of_arms_of_Liberia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Libya">
+		<dbp:name xml:lang="en">Libya</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>7.252.287</dbp:population>
+		<dbp:area>1.769.541</dbp:area>
+		<dbp:capital>Tripoli</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Dinar Libya (د.ل)(LYD)</dbp:currency>
+		<dbp:callingCode>+218</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/libya/libya-districts-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Libya.svg/188px-Flag_of_Libya.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Coat_of_arms_of_Libya_Tobruk_Government.svg/128px-Coat_of_arms_of_Libya_Tobruk_Government.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Madagascar">
+		<dbp:name xml:lang="en">Madagascar</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>28.172.462</dbp:population>
+		<dbp:area>587.041</dbp:area>
+		<dbp:capital>Antananarivo</dbp:capital>
+		<dbp:officialLanguage>Malagasi</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Ariary Madagaskar(MGA)</dbp:currency>
+		<dbp:callingCode>+261</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Madagascar-general-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/188px-Flag_of_Madagascar.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Seal_of_Madagascar.svg/128px-Seal_of_Madagascar.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Malawi">
+		<dbp:name xml:lang="en">Malawi</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>20.091.635</dbp:population>
+		<dbp:area>118.484</dbp:area>
+		<dbp:capital>Lilongwe</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Kwacha Malawi (MK)(MWK)</dbp:currency>
+		<dbp:callingCode>+265</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.researchgate.net/publication/258927754/figure/fig3/AS:667662749274114@1536194612134/Map-of-Malawi-and-its-neighboring-countries-wwwtheodoracom-maps.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/188px-Flag_of_Malawi.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Coat_of_arms_of_Malawi.svg/128px-Coat_of_arms_of_Malawi.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mali">
+		<dbp:name xml:lang="en">Mali</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>21.473.764</dbp:population>
+		<dbp:area>1.240.192</dbp:area>
+		<dbp:capital>Bamako</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (CFA)(XOF)</dbp:currency>
+		<dbp:callingCode>+223</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Mali-Map-2012.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/188px-Flag_of_Mali.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Coat_of_arms_of_Mali.svg/128px-Coat_of_arms_of_Mali.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Morocco">
+		<dbp:name xml:lang="en">Morocco</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>36.767.655</dbp:population>
+		<dbp:area>446.550</dbp:area>
+		<dbp:capital>Rabat</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:officialLanguage>Berber</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Dirham Maroko (د.م.)(MAD)</dbp:currency>
+		<dbp:callingCode>+212</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Morocco-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_Morocco_%28blue_green%29.svg/188px-Flag_of_Morocco_%28blue_green%29.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Coat_of_arms_of_Morocco_%28illuminated%29.svg/128px-Coat_of_arms_of_Morocco_%28illuminated%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mauritania">
+		<dbp:name xml:lang="en">Mauritania</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>4.403.313</dbp:population>
+		<dbp:area>1.030.000</dbp:area>
+		<dbp:capital>Nouakchott</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Ouguiya(MRO)</dbp:currency>
+		<dbp:callingCode>+222</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Mauritania-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/188px-Flag_of_Mauritania.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Seal_of_Mauritania_%282018%29.svg/128px-Seal_of_Mauritania_%282018%29.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mauritius">
+		<dbp:name xml:lang="en">Mauritius</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>1.265.475</dbp:population>
+		<dbp:area>2.040</dbp:area>
+		<dbp:capital>Port Louis</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Rupee Mauritius (₨)(MUR)</dbp:currency>
+		<dbp:callingCode>230</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Mauritius-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/188px-Flag_of_Mauritius.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coat_of_arms_of_Mauritius.svg/128px-Coat_of_arms_of_Mauritius.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Mozambique">
+		<dbp:name xml:lang="en">Mozambique</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>32.192.646</dbp:population>
+		<dbp:area>801.590</dbp:area>
+		<dbp:capital>Maputo</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Metical Mozambik (MZN)</dbp:currency>
+		<dbp:callingCode>+258</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Mozambique_map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/1/17/Mosambiek_vlag.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/E/emblem-of-mozambique-logo-E4A3B0A037-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Namibia">
+		<dbp:name xml:lang="en">Namibia</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>2.533.061</dbp:population>
+		<dbp:area>825.418</dbp:area>
+		<dbp:capital>Windhoek</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Dollar Namibia ($) (NAD)</dbp:currency>
+		<dbp:callingCode>+264</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id.wikipedia.org/wiki/Pembagian_administratif_Namibia#/media/Berkas:Namibia_numbered_colored_regions_English1.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Namibia.png/640px-Flag_of_Namibia.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/N/Namibia-logo-23066B7F78-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Niger">
+		<dbp:name xml:lang="en">Niger</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>23.206.599</dbp:population>
+		<dbp:area>1.267.000</dbp:area>
+		<dbp:capital>Niamey</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (XOF)</dbp:currency>
+		<dbp:callingCode>+227</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/Niger-map-L.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Flag_of_N%C3%ADger_2.png/640px-Flag_of_N%C3%ADger_2.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/C/coat-of-arms-of-niger-logo-A8552699F2-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Nigeria">
+		<dbp:name xml:lang="en">Nigeria</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>218.523.940</dbp:population>
+		<dbp:area>923.768</dbp:area>
+		<dbp:capital>Abuja</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Naira Nigeria (NGN)</dbp:currency>
+		<dbp:callingCode>+234</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/nigeria-administrative-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Nigeria_flag_map.png/640px-Nigeria_flag_map.png" />
+		<foaf:depiction rdf:resource="https://w7.pngwing.com/pngs/251/111/png-transparent-coat-of-arms-of-nigeria-flag-of-nigeria-federal-government-of-nigeria-nigerian-electricity-regulatory-commission-flag-logo-vertebrate-thumbnail.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Ivory_Coast">
+		<dbp:name xml:lang="en">Ivory Coast</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>28.282.668</dbp:population>
+		<dbp:area>322.463</dbp:area>
+		<dbp:capital>Abidjan</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (XOF)</dbp:currency>
+		<dbp:callingCode>+225</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/c/cb/Cabo_Verde_regions_map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Ivory_Coast_%28CMYK%29.png/640px-Flag_of_Ivory_Coast_%28CMYK%29.png" />
+		<foaf:depiction rdf:resource="https://w1.pngwing.com/pngs/446/996/png-transparent-coat-coat-of-arms-abidjan-coat-of-arms-of-ivory-coast-symbol-prophet-heraldry-line-thumbnail.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Central_African_Republic">
+		<dbp:name xml:lang="en">Central African Republic</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>5.405.960</dbp:population>
+		<dbp:area>622.984</dbp:area>
+		<dbp:capital>Bangui</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (XAF)</dbp:currency>
+		<dbp:callingCode>+236</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://i.pinimg.com/originals/7f/a0/ea/7fa0ea4366f53403a5c7585991af7efd.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_the_Central_African_Republic.png/640px-Flag_of_the_Central_African_Republic.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/6/63/Coat_of_arms_of_the_Central_African_Republic-NEW.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Democratic_Republic_of_the_Congo">
+		<dbp:name xml:lang="en">Democratic Republic of the Congo</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>93.863.282</dbp:population>
+		<dbp:area>2.344.858</dbp:area>
+		<dbp:capital>Kinshasa</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (XAF)</dbp:currency>
+		<dbp:callingCode>+243</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/dr_congo_map.jpg" />
+		<foaf:depiction rdf:resource="https://image.gambarpng.id/pngs/gambar-transparent-congo-independence-day_47381.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/9/91/Coat_of_arms_of_the_Democratic_Republic_of_the_Congo.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Republic_of_the_Congo">
+		<dbp:name xml:lang="en">Republik of Congo</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>5.563.210</dbp:population>
+		<dbp:area>342.000</dbp:area>
+		<dbp:capital>Brazzaville</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Tengah (XAF)</dbp:currency>
+		<dbp:callingCode>+242</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/congo-administrative-map.jpg" />
+		<foaf:depiction rdf:resource="https://cdn.pixabay.com/photo/2013/07/13/14/16/congo-162398_1280.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/C/coat-of-arms-of-the-republic-of-the-congo-logo-E72DF331AC-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Rwanda">
+		<dbp:name xml:lang="en">Rwanda</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>13.290.716</dbp:population>
+		<dbp:area>26.340</dbp:area>
+		<dbp:capital>Kigali</dbp:capital>
+		<dbp:officialLanguage>Kinyarwanda</dbp:officialLanguage>
+		<dbp:currency>Franc Rwanda (RWF)</dbp:currency>
+		<dbp:callingCode>+250</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/e/e5/RwandaGeoProvinces.png" />
+		<foaf:depiction rdf:resource="https://commons.wikimedia.org/wiki/File:Ruanda_(Serarped).png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/e/e5/Royal_coat_of_arms_of_Rwanda.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe">
+		<dbp:name xml:lang="en">Sao Tomé and Príncipe</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>219.999</dbp:population>
+		<dbp:area>964</dbp:area>
+		<dbp:capital>Sao Tome</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Dobra Sao Tome dan Principe (STD)</dbp:currency>
+		<dbp:callingCode>+239</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://4.bp.blogspot.com/-UaguNA6-r8s/XFuHyG-TydI/AAAAAAAAEYA/I6pO9xnZ5MsTfnwSe_kSd-AQjOs_2IlGgCLcBGAs/s640/Peta-Sao-Tome-dan-Principe.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/188px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/128px-Coat_of_arms_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/drapeau_senegal">
+		<dbp:name xml:lang="en">Senegal</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>16.709.807</dbp:population>
+		<dbp:area>196.722</dbp:area>
+		<dbp:capital>Dakar</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (XOF)</dbp:currency>
+		<dbp:callingCode>+221</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.freeworldmaps.net/africa/senegal/senegal-physical-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/188px-Flag_of_Senegal.svg.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/C/coat-of-arms-of-senegal-logo-F3ADCC756C-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Seychelles">
+		<dbp:name xml:lang="en">Seychelles</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>97.999</dbp:population>
+		<dbp:area>459</dbp:area>
+		<dbp:capital>Victoria</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Rupee Seychelles (SCR)</dbp:currency>
+		<dbp:callingCode>+248</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://thumbs.dreamstime.com/z/vector-administrative-map-seychelles-island-mahe-vector-administrative-map-seychelles-island-mahe-244312862.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Seychelles_flag_icon.png/640px-Seychelles_flag_icon.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/1/12/Coat_of_arms_of_Seychelles.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Sierra_Leone">
+		<dbp:name xml:lang="en">Sierra Leone</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>7.793.135</dbp:population>
+		<dbp:area>71.740</dbp:area>
+		<dbp:capital>Freetown</dbp:capital>
+		<dbp:officialLanguage>Somalia</dbp:officialLanguage>
+		<dbp:currency>Leone (Le) (MWK)</dbp:currency>
+		<dbp:callingCode>+232</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.mapsofindia.com/world-map/sierra-leone/sierra-leone-provinces-and-capital-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sierra_leone_flag_300.png/640px-Sierra_leone_flag_300.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/C/coat-of-arms-of-sierra-leone-logo-F6184C5729-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Somalia">
+		<dbp:name xml:lang="en">Somalia</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>15.393.211</dbp:population>
+		<dbp:area>637.657</dbp:area>
+		<dbp:capital>Mogadishu</dbp:capital>
+		<dbp:officialLanguage>Arab</dbp:officialLanguage>
+		<dbp:currency>Shilling Somalia</dbp:currency>
+		<dbp:callingCode>+252</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://saripedia.files.wordpress.com/2011/04/somalia_pol02.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Somali_Flag.png/640px-Somali_Flag.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/1/16/Coat_of_arms_of_Somalia.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Sudan">
+		<dbp:name xml:lang="en">Sudan</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>45.166.529</dbp:population>
+		<dbp:area>1.861.484</dbp:area>
+		<dbp:capital>Khartoum</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pound Sudan (SDG)</dbp:currency>
+		<dbp:callingCode>+249</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn.britannica.com/99/4499-050-F2FDB1A4/features-Sudan.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sudan_flag_300.png/640px-Sudan_flag_300.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/1/13/Coat_of_arms_of_Sudan.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/South_Sudan">
+		<dbp:name xml:lang="en">South Sudan</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>12.793.194</dbp:population>
+		<dbp:area>619.745</dbp:area>
+		<dbp:capital>Juba</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Pound Sudan Selatan (SSP)</dbp:currency>
+		<dbp:callingCode>+211</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id.wikipedia.org/wiki/Negara_bagian_di_Sudan_Selatan#/media/Berkas:South_Sudan-32_States.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/South_Sudan_Official_Flag.png/640px-South_Sudan_Official_Flag.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_arms_of_South_Sudan.svg/128px-Coat_of_arms_of_South_Sudan.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Cape_Verde">
+		<dbp:name xml:lang="en">Cape Verde</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>552.999</dbp:population>
+		<dbp:area>4.033</dbp:area>
+		<dbp:capital>Praia</dbp:capital>
+		<dbp:officialLanguage>Portugis</dbp:officialLanguage>
+		<dbp:currency>Escudo Tanjung Verde (CVE)</dbp:currency>
+		<dbp:callingCode>+238</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://id.wikipedia.org/wiki/Santiago,_Tanjung_Verde#/media/Berkas:Bela-vista-net-Santiago-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Cape-Verde_flag_icon.png/640px-Cape-Verde_flag_icon.png" />
+		<foaf:depiction rdf:resource="https://w7.pngwing.com/pngs/576/542/png-transparent-cape-verde-coat-arms-green-blue-yellow-white-country-cabo-verde-thumbnail.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Tanzania">
+		<dbp:name xml:lang="en">Tanzania</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>61.092.629</dbp:population>
+		<dbp:area>945.087</dbp:area>
+		<dbp:capital>Dodoma</dbp:capital>
+		<dbp:officialLanguage>Swahili</dbp:officialLanguage>
+		<dbp:currency>Shilling Tanzania (TZs)</dbp:currency>
+		<dbp:callingCode>+255</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://c8.alamy.com/comp/JET4CE/tanzania-map-atlas-map-of-the-world-africa-kenya-illustration-east-JET4CE.jpg" />
+		<foaf:depiction rdf:resource="https://commons.wikimedia.org/wiki/File:%D0%9F%D1%80%D0%B0%D0%BF%D0%BE%D1%80_%D0%A2%D0%B0%D0%BD%D0%B7%D0%B0%D0%BD%D1%96%D1%97.png" />
+		<foaf:depiction rdf:resource="https://w7.pngwing.com/pngs/999/214/png-transparent-coat-of-arms-of-tanzania-flag-of-tanzania-national-emblem-others-national-emblem-fictional-character-national-symbol-thumbnail.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Togo">
+		<dbp:name xml:lang="en">Togo</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>8.193.325</dbp:population>
+		<dbp:area>56.785</dbp:area>
+		<dbp:capital>Lome</dbp:capital>
+		<dbp:officialLanguage>Prancis</dbp:officialLanguage>
+		<dbp:currency>Franc CFA Afrika Barat (XOF)</dbp:currency>
+		<dbp:callingCode>+228</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/5/5e/To-map.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Togo.png/640px-Flag_of_Togo.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Togo_coat_of_arms.png/731px-Togo_coat_of_arms.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Tunisia">
+		<dbp:name xml:lang="en">Tunisia</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>11.982.754</dbp:population>
+		<dbp:area>163.610</dbp:area>
+		<dbp:capital>Tunis</dbp:capital>
+		<dbp:officialLanguage>Luganda</dbp:officialLanguage>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:officialLanguage>Swahili</dbp:officialLanguage>
+		<dbp:currency>Dinar Tunisia (DT)</dbp:currency>
+		<dbp:callingCode>+216</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://cdn1.vectorstock.com/i/1000x1000/25/75/map-of-tunisia-vector-1762575.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Flag_tn_tn.png/640px-Flag_tn_tn.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/128px-Coat_of_arms_of_Tunisia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Uganda">
+		<dbp:name xml:lang="en">Uganda</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>45.890.809</dbp:population>
+		<dbp:area>241.038</dbp:area>
+		<dbp:capital>Kampala</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Shilling Uganda (USh) (UGX)</dbp:currency>
+		<dbp:callingCode>+256</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/uganda-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Flag_of_Uganda_People%27s_Congress_%28former%29.png/640px-Flag_of_Uganda_People%27s_Congress_%28former%29.png" />
+		<foaf:depiction rdf:resource="https://seeklogo.com/images/C/coat-of-arms-of-the-republic-of-uganda-logo-5B185D14CB-seeklogo.com.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Zambia">
+		<dbp:name xml:lang="en">Zambia</dbp:name>
+		<dbp:continent>Benua Afrika</dbp:continent>
+		<dbp:population>18.390.192</dbp:population>
+		<dbp:area>752.612</dbp:area>
+		<dbp:capital>Lusaka</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Zambian kwacha (ZMW)</dbp:currency>
+		<dbp:callingCode>+260</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://www.nationsonline.org/maps/zambia-political-map.jpg" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Flag_of_Zambia_%28simple%29.png/640px-Flag_of_Zambia_%28simple%29.png" />
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_arms_of_Zambia.svg/128px-Coat_of_arms_of_Zambia.svg.png" />
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://dbpedia.org/page/Zimbabwe">
+		<dbp:name xml:lang="en">Zimbabwe</dbp:name>
+		<dbp:continent>Afrika</dbp:continent>
+		<dbp:population>14.802.336</dbp:population>
+		<dbp:area>390.757</dbp:area>
+		<dbp:capital>Harare</dbp:capital>
+		<dbp:officialLanguage>Inggris</dbp:officialLanguage>
+		<dbp:currency>Zimbabwean dollar U.S. dollar ($) (USD)</dbp:currency>
+		<dbp:callingCode>+263</dbp:callingCode>
+		<foaf:depiction rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Administrative_Divisions_of_Zimbabwe.svg/1200px-Administrative_Divisions_of_Zimbabwe.svg.png" />
+		<foaf:depiction rdf:resource="https://w7.pngwing.com/pngs/951/490/png-transparent-flag-of-zimbabwe-flags-of-the-world-shona-flag-miscellaneous-angle-flag-thumbnail.png" />
+		<foaf:depiction rdf:resource="https://w7.pngwing.com/pngs/583/162/png-transparent-coat-of-arms-of-zimbabwe-flag-of-zimbabwe-zimbabwe-bird-others-miscellaneous-antler-flag-thumbnail.png" />
+	</rdf:Description>
+</rdf:RDF>
