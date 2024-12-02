@@ -7,7 +7,7 @@ require_once 'function.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExplorNation</title>
+    <title>Library Digital Resource</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
@@ -74,7 +74,11 @@ require_once 'function.php';
     <nav class="navbar">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <img src="img/1-removebg-preview (1).png" alt="logo" width="190px">
+            <header style="background-color: #8D6E63; color: #fff; padding: 20px; text-align: center;">
+    <h1>📚 Library Digital Resource</h1>
+    <p>Discover and explore a vast collection of books</p>
+  </header>
+                <!-- <img src="img/1-removebg-preview (1).png" alt="logo" width="190px"> -->
             </a>
             <form action="details2.php" method="GET">
                 <div class="search-container">
@@ -98,7 +102,7 @@ require_once 'function.php';
     <footer class="site-footer" style="margin-top: 200px;">
         <div class="container">
             <p class="copyright-text" style="text-align: center;">
-                &copy; 2023 ExplorNation. All rights reserved.
+                &copy; 2024 Library Digital Resource. All rights reserved.
             </p>
         </div>
     </footer>

@@ -1,40 +1,63 @@
 <?php
 require_once 'function.php';
-include 'function.php';
-?>
 
-<?php
-require_once realpath(__DIR__ . '/.') . "/vendor/autoload.php";
+$isError = false;
+$data = [];
 
-// Setup RDF namespace
-\EasyRdf\RdfNamespace::set('schema', 'http://schema.org/');
+// Ambil parameter pencarian
+if (isset($_GET['search_term'])) {
+    $searchTerm = $_GET['search_term'];
+    $sparql_query = searchByName($searchTerm);
+} elseif (isset($_GET['occupation'])) {
+    $occupation = $_GET['occupation'];
+    $sparql_query = searchByOccupation($occupation);
+} elseif (isset($_GET['birth_place'])) {
+    $birthPlace = $_GET['birth_place'];
+    $sparql_query = searchByBirthPlace($birthPlace);
+} elseif  (isset($_GET['category'])) {
+$category = $_GET['category'];
+// Pencarian berdasarkan kategori pekerjaan
+$sparql_query = searchByOccupationCategory($category);
+} 
+else {
+    $isError = true;
+    $error_message = "Kriteria pencarian tidak valid.";
+}
 
-// RDF file location
-$rdf_file = 'data/books.rdf'; // Lokasi file RDF Anda
-$graph = new \EasyRdf\Graph();
-$graph->parseFile($rdf_file, 'rdfxml');
+// Eksekusi query dan proses hasilnya
+if (!$isError) {
+    try {
+        $results = $jena_endpoint->query($sparql_query);
 
-// Get search term and criteria from URL
-$search_term = isset($_GET['search_term']) ? strtolower($_GET['search_term']) : '';
-$criteria = isset($_GET['criteria']) ? $_GET['criteria'] : 'title';
-
-// Map criteria to RDF property
-$criteria_map = [
-    'title' => 'schema:name',
-    'author' => 'schema:author',
-    'genre' => 'schema:genre',
-    'isbn' => 'schema:isbn'
-];
-$criteria_property = isset($criteria_map[$criteria]) ? $criteria_map[$criteria] : 'schema:name';
-
-// Search logic
-$results = [];
-if (!empty($search_term)) {
-    foreach ($graph->allOfType('schema:Book') as $book) {
-        $property_value = strtolower($book->get($criteria_property));
-        if (strpos($property_value, $search_term) !== false) {
-            $results[] = $book;
+        foreach ($results as $row) {
+            $data[] = [
+                'name' => (string)($row->name ?? 'Tidak Diketahui'),
+                'birthDate' => (string)($row->birthDate ?? 'Tidak Diketahui'),
+                'birthPlace' => (string)($row->birthPlace ?? 'Tidak Diketahui'),
+                'occupation' => (string)($row->occupation ?? 'Tidak Diketahui'),
+                'latitude' => (string)($row->latitude ?? null),
+                'longitude' => (string)($row->longitude ?? null),
+                'image' => (string)($row->image ?? null),
+            ];
         }
+
+        if (empty($data)) {  
+            $isError = true;
+            $error_message = "Tidak ditemukan data sesuai kriteria.";
+        }
+    } catch (Exception $e) {
+       
+        $isError = true;
+        $error_message = "Terjadi kesalahan saat mengambil data: " . $e->getMessage();
+    }
+    
+    if ($isError) {
+
+        echo "<script>
+                alert('{$error_message}');
+                window.location.href = 'index.php';  // Mengarahkan ke halaman index.php
+              </script>";
+        exit;  
     }
 }
 ?>
@@ -44,41 +67,189 @@ if (!empty($search_term)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Explorer - Search Results</title>
+    <title>Hasil Pencarian - Tokoh Terkenal</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header style="background-color: #8D6E63; color: #fff; padding: 20px; text-align: center;">
-        <h1>📚 Library Explorer</h1>
-        <p>Search Results for "<?php echo htmlspecialchars($search_term); ?>"</p>
-    </header>
-
-    <div class="container" style="margin-top: 30px;">
-        <?php if (!empty($results)): ?>
-            <div class="row">
-                <?php foreach ($results as $book): ?>
-                    <div class="col-md-4">
-                        <div class="card" style="margin-bottom: 20px;">
-                            <div class="card-body">
-                                <h5 class="card-title"><?php echo $book->get('schema:name'); ?></h5>
-                                <p><strong>Author:</strong> <?php echo $book->get('schema:author'); ?></p>
-                                <p><strong>Published:</strong> <?php echo $book->get('schema:datePublished'); ?></p>
-                                <p><strong>ISBN:</strong> <?php echo $book->get('schema:isbn'); ?></p>
-                                <p><strong>Pages:</strong> <?php echo $book->get('schema:numberOfPages'); ?></p>
-                                <a href="#" class="btn btn-primary">Details</a>
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
-            </div>
-        <?php else: ?>
-            <p>No results found for "<?php echo htmlspecialchars($search_term); ?>"</p>
-        <?php endif; ?>
+<div class="header-banner text-center mb-5">
+        <img src="img/garuda-pancasila.png"  class="ornamen-header ornamen-kiri" alt="Ornamen Garuda">
+        <h1 class="display-4 font-weight-bold" style = "font-family: 'Lilita One';" >Hasil Pencarian Tokoh Terkenal</h1>
+        <img src="img/garuda-pancasila.png"  class="ornamen-header ornamen-kanan" alt="Ornamen Garuda">
     </div>
 
-    <footer class="site-footer" style="background-color: #6D4C41; color: #fff; padding: 20px; text-align: center;">
-        <p>&copy; 2024 Library Explorer. All rights reserved.</p>
-    </footer>
+<style>
+        :root {
+            --merah-indonesia: #FF0000;
+            --putih-indonesia: #FFFFFF;
+            --krem: #F4F4F4;
+        }
+
+        body {
+        font-family: 'Merriweather', serif;
+        margin-bottom: 30px; 
+        padding: 0;
+        background-color: #FFF5F3;
+        font-size: 1rem;
+    }
+
+        .header-banner {
+            background-color: var(--merah-indonesia);
+            color: var(--putih-indonesia);
+            padding: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('img/batik.png') repeat;
+            opacity: 0.1;
+    
+        }
+
+        .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+
+    h3 {
+        font-size: 2.3rem;
+        font-weight: bold; 
+        text-align: center; 
+        margin-bottom: 5px; 
+    }
+        .ornamen-header {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+
+        .ornamen-kiri {
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .ornamen-kanan {
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+
+    .btn-kembali {
+        background-color: var(--merah-indonesia);
+        color: var(--putih-indonesia);
+        padding: 10px 30px;
+        border-radius: 25px;
+        border: none;
+        transition: all 0.3s ease;
+        display: inline-block;
+        text-align: center;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .btn-kembali-container {
+        margin-top: 30px; 
+        margin-bottom: 30px; 
+
+    }
+
+.btn-kembali:hover {
+    color: var(--krem);
+    background-color: #D10000;
+    transform: translateY(-2px);
+}
+
+ /* Styling for the table */
+ table {
+        width: 100%;
+        border-collapse: collapse; /* Ensures no space between borders */
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border: 1px solid #ddd; /* Adds borders around table cells */
+    }
+
+    th {
+        background-color: var(--merah-indonesia);
+        color: #000000;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Zebra striping for rows */
+    }
+
+    tr:hover {
+        background-color: #f1f1f1; /* Light hover effect for rows */
+    }
+
+    /* Styling for the table headings */
+    th {
+        font-size: 23px;
+    }
+
+    /* Styling for table data */
+    td {
+        font-size: 20px;
+    }
+
+</style>
+<section>
+    <div class="container mt-5">
+        <?php if (!empty($data)): ?>
+            <h3>Daftar Tokoh</h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Tempat Lahir</th>
+                        <th>Pekerjaan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($data as $index => $tokoh): ?>
+                        <tr>
+                            <td><?= htmlspecialchars($tokoh['name']) ?></td>
+                            <td><?= htmlspecialchars($tokoh['birthDate']) ?></td>
+                            <td><?= htmlspecialchars($tokoh['birthPlace']) ?></td>
+                            <td><?= htmlspecialchars($tokoh['occupation']) ?></td>
+                            <td>
+                            <a href="detail.php?name=<?= urlencode($tokoh['name']) ?>" class="btn btn-primary btn-sm">Lihat Detail</a>
+                            </td>
+                        </tr>
+                    <?php endforeach; ?>
+                </tbody>
+            </table>
+        <?php else: ?>
+            <p class="text-center">Tidak ada hasil ditemukan untuk kriteria pencarian Anda.</p>
+        <?php endif; ?>
+
+<!-- Tombol Kembali ke Halaman Awal -->
+<div class="text-center mt-4">
+    <a href="index.php" class="btn-kembali">
+        Kembali ke Halaman Awal
+    </a>
+</div>
+
+    </div>
+</section>
 </body>
 </html>

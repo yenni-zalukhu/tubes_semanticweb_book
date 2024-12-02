@@ -1,0 +1,1905 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2023/10/untitled-ontology-/"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2023/10/untitled-ontology-/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bukufilsafat="http://www.tubessemantic.id/ws/bukufilsafat.owl#">
+    <owl:Ontology rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Dimiliki_Kategori -->
+
+    <owl:ObjectProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Dimiliki_Kategori"/>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Memiliki_Kategori -->
+
+    <owl:ObjectProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Memiliki_Kategori">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Biografi_Penulis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Biografi_Penulis">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#ISBN -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#ISBN">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Jumlah_Halaman -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Jumlah_Halaman">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Tahun_Terbit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Tahun_Terbit">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#abstrak -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#abstrak">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#penerbit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#penerbit">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#pengarang -->
+
+    <owl:DatatypeProperty rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#pengarang">
+        <rdfs:domain rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Filsafat_Indonesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Filsafat_Indonesia -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Filsafat_Indonesia"/>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Filsafat_Indonesia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_feminisme -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_feminisme">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_ilmu -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_ilmu">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_kebudayaan -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_kebudayaan">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_pendidikan -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_pendidikan">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_politik -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_politik">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_teknologi -->
+
+    <owl:Class rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_teknologi">
+        <rdfs:subClassOf rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_dan_kebudayaan_dalam_interpretatif_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_dan_kebudayaan_dalam_interpretatif_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-623-91211-2-9</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Denpasar : UNHI Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>I Wayan Watra</bukufilsafat:pengarang>
+        <rdfs:label>Agama dan kebudayaan dalam interpretatif filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Alih_wahana -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Alih_wahana">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Sapardi_Djoko_Damono</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>978-602-03-7914-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:penerbit>Jakarta : Gramedia Pustaka Utama</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Sapardi Djoko Damono</bukufilsafat:pengarang>
+        <rdfs:label>Alih wahana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Dasar-dasar_filsafat_India -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Dasar-dasar_filsafat_India">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-9490-09-X</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Denpasar : Program Magister Ilmu Agama dan Kebudayaan, Universitas Hindu Indonesia</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>I. B. Putu Suamba</bukufilsafat:pengarang>
+        <rdfs:label>Dasar-dasar filsafat India</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Dasar_Ajaran_dan_Filsafat_Mengenai_Agama_Hindu -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Dasar_Ajaran_dan_Filsafat_Mengenai_Agama_Hindu">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-979-617-142-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Denpasar: Kayumas Agung</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Gede Agus Budi Adnyana</bukufilsafat:pengarang>
+        <rdfs:label>Parisuddha : Dasar Ajaran dan Filsafat Mengenai Agama Hindu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ensiklopedi_agama_dan_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ensiklopedi_agama_dan_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-979-756-476-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Graha Ilmu</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Magdalena Pranata Santoso</bukufilsafat:pengarang>
+        <rdfs:label>Ensiklopedia agama dan filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Estetika_indah_di_seberang -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Estetika_indah_di_seberang">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Hieronymus_Simorangkir</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>978-979-21-6283-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Seni identik dengan indah, secara kodrati meliputi natural alami dalam kaitan dengan dunia benda dan artistik humanistik dalam tautan dunia manusia. Kedua-duanya, yaitu keindahan natural kebendaan dan keindahan artistik humanistik, distingtif satu dengan yang lain namun in tegratif dalam relasi dan identitas. Karena watak dinamisnya, seni tak pernah berhenti dalam dirinya. la bergerak melampaui diri, bahkan menyeberang demi kesempurnaannya. Dengan karakter energiknya yang universal dan transendental, ia berpotensi hijrah dalam keilahian, pada Tuhan semata. Demikian seni, indah di seberang.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Erni Setyowati, C. (editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Hieronymus Simorangkir</bukufilsafat:pengarang>
+        <rdfs:label>Estetika indah di seberang</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Islam_sebagai_filsafat_humanis-profetik -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Islam_sebagai_filsafat_humanis-profetik">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-6791-27-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Agama dan filsafat, atau ilmu normatif dan ilmu sekuler tidak seharusnya dianggap saling bertentangan, melainkan saling mengisi dan melengkapi. Filsafat (hikmah) dalam perumpamaan Ibn Rusyd, adalah saudara sesusuan bagi agama (syariah). Buku ini berisi pengertian, objek kajian, dan peta perkembangan pemikiran filsafat dalam Islam.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Aswaja Pressindo</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Dr. Wardani, M.Ag.</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat Islam sebagai filsafat humanis-profetik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat__agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat__agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Harun_Nasution</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Bulan Bintang</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Harun Nasution</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat__sejarah_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat__sejarah_">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-623-5832-95-1</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Filsafat sering dianggap sebagai suatu hal yang sulit baik untuk dipelajari maupun untuk dilakukan (berfilsafat). Hal apapun sebelum dipelajari pasti akan terasa sulit untuk dipahami, tetapi filsafat lebih dari itu. Paling tidak itulah anggapan umumnya. Filsafat atau philosophy dalam bahasa inggris, atau falsafah dalam bahasa arab merupakan istilah yang diwariskan dari tradisi pemikiran Yunani Kuno. Filsafat yang secara harfiah, berarti &quot;cinta kebijaksanaan. Filsafat Ilmu adalah untuk menjelaskan hakikat ilmu yang mempunyai banyak keter- batasan, sehingga dapat diperoleh pemahaman yang padu mengenai berbagai fenomena alam yang telah menjadi objek ilmu itu sendiri, selain itu filsafat ilmu juga dapat melatih cara berfikir menjadi lebih kritis&quot; Filsafat merupakan kegiatan berpikir yang sistematis, kritis, menyeluruh, mendasar, koheren dan juga bisa spekulatif. Kegiatan berpikir ini memerlukan niat dan kehendak yang kuat, karena tidak semua orang bisa berfilsafat. Dalam kadar tertentu cara-cara berpikir filsafat bisa diterapkan dalam kehidupan sehari.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Pasaman Barat : CV. Azka Pustaka</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Bety Diana Serly Hetharion</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Moh. Suardi (editor)</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Mohammad_Rasjidi</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Djakarta : Bulan Bintang</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Rasyidi, M. Kiai Haji</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat Agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-0746-49-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>:Secara stuktural teologi berbeda dengan filsafat. Struktur pendekatan teologi memposisikan Tuhan sebagai zat yang mutlak benar, kemudian dicarikan argumen-argumen rasional untuk mendukung kebenaran tersebut. Adapun struktur filsafat tidak demikian, filsafat dibangun atas dasar keraguan dan penyelidikan, kemudian diabstraksikan untuk mendapatkan kebenaran yang final. Ukuran kebenaran teologi dan filsafat berbeda. Teologi ukuran kebenarannya, disamping kelogisan dan tidak logis adalah imran/kafir atau halal/haram. Adapun, ukuran kebenaran filsafat adalah logis/tidak logis atau rasional/irrasional.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Medan: Menu seimbang / CV. Manhaji, Machali Haryono</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Dra. Mardhiah Abbas, M.Hum.</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Heru Syahputra, M.Pem.I. (editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Marzuki, S.Sos., M.Sos.</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_barat_kontemporer -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_barat_kontemporer">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-03-0926-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Gramedia Pustaka Utama</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>K.Bertens</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat barat kontemporer : Inggris- Jerman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_dan_sejarah_matematika -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_dan_sejarah_matematika">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_ilmu"/>
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-602-938-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Universitas Terbuka</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Sukardjono</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat dan sejarah matematika</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_hukum_dalam_lintasan_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_hukum_dalam_lintasan_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_politik"/>
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Jumlah_Halaman>979413435X</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Yayasan Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Theo Huijbers</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat hukum dalam lintasan sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ilmu_pendidikan_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ilmu_pendidikan_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-8634-51-9</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bandung : Arfino Raya</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Ahmad Syamsu Rizal</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Herlan Firmansyah</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sofyan Sauri</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat ilmu pendidikan agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ilmu_untuk_teologi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ilmu_untuk_teologi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-18404-4-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Mahasiswa teologi sebagai bagian dari civitas akademika diharapkan memiliki penguasaan yang baik atas bidang ilmu yang ditekuni untuk selanjutnya memanfaatkan ilmu tersebut. baik untuk pengembangan kehidupan dirinya maupun kehidupan masyarakat pada umumnya. Penguasaan ilmu bukan hanya menyangkut penguasaan konsep-konsep serta teori-teori keilmuwan dalam bidangnya masing-masing. akan tetapi juga landasan pemahaman mengenai hakikat ilmu, objek kajian dari ilmu yang dipelajari, metode untuk pengembangan ilmu tersebut serta kaidah-kaidah moral dan etika mengenai untuk apa pengembangan ilmu tersebut.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Jakarta Barat : Sekolah Tinggi Teologi Bethel The Way</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Hikman Sirait, M. Th (editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Kinayati Djojosuroto</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Romika, M. Pd</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat ilmu untuk teologi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ketuhanan_kontemporer -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_ketuhanan_kontemporer">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Louis_Leahy#:~:text=Louis%20Leahy%20adalah%20seorang%20filsuf,ia%20menjadi%20anggota%20Serikat%20Jesuit.</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>979413905X</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Louis Leahy</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat ketuhanan kontemporer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>9795260898</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">192</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Bumi Aksara</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H.M. Arifin</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat pendidikan Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam_">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>9795260847</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Bumi Aksara</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H. Zaini Muchtarom</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat pendidikan Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan__Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan__Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-475-008-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">172</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Salah satu faktor ketertinggalan pendidiian, khususnya pendidikan agama, adalah ketidakmampuan institusi dan pelaksana pendidikan menetapkan tujuan pendidikan yang jelas serta menerapkan prinsip, materi dan metode yang tepat bagi peserta didik.Filsafat tidak dapat dilepaskan dari pendidikan, bahkan filsafat merupakan bagian integral dari pendidikan. Ini terutama ketika pendidikan pada umumnya, dan pendidikan Islam pada khususnya, memainkan peran penting dalam membangun pribadi muslim yang pada akhirnya menentukan terciptanya masyarakat yang damai dan berkemajuan.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Deepublish</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Afifuddin Harisah</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat pendidikan Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_agama_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_agama_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-464-031-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Lhokseumawe : Universitas Malikussaleh Press (Unimal Press)</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Miswari</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat pendidikan agama Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>9789794209158</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Buku filsafat sejarah ini berisi menganai hal-hal fundamental terkait filsafat sejarah Filsafat sejarah merupakan salah satu mata kuliah wajib di Fakultas Filsafat Universitas Gadjah Mada. Filsafat Sejarah merupakan cabang filsafat khusus sebagaimana Filsafat Manusia, Filsafat Sosial, Filsafat Bahasa, Filsafat Seni, Filsafat Kebudayaan dan yang lainnya. Kajian filsafat sejarah meneliti azas-azas paling fundamental ataupun hakiki dalam proses historik sebagai keseluruhan dalam keanekaan peristiwa. Filsafat Sejarah juga disebut dengan istilah “metahistory”, mencoba memahami berbagai pola dan hukum dalam berbagai peristiwa. Filsafat Sejarah mengandaikan dan memperkembangkan dan meruncingkan bidang-bidang filsafat sistematik lainnya, seperti filsafat manusia, filsafat moral, filsafat sosial, dan filsafat kebudayaan. Filsafat sejarah meneliti dasar, azas-azas paling umum dan mutlak; artinya mengatasi pemahaman seperti dalam studi sejarah biasa. Filsafat Sejarah mencari pandanagan yang lebih mutlak. Filsafat Sejarah kurang memperhatikan fakta-fakta, lebih memperhatikan relasi-relasi dan sebab-sebab yang hakiki dalam berbagai peristiwa historis. Fakta dari ilmu sejarah, oleh filsafat sejarah dipakai sebagai contoh atau ilustrasi belaka, bukan sebagai bukti. Ilmu sejarah dan filsafat sejarah saling melengkapi dan saling membutuhkan, namun tidak dapat disatukan secara logic, bukti dalam ilmu sejarah tidak dapat dipakai sebagai bukti bagi filsafat sejarah.; atau sebaliknya. Masing-masing mempunyai metode dan logikanya sendiri, dan hanya mempengaruhi satu sama lain secara psikologik. Ilmu sejarah juga bersandarkan ilmu-ilmu empirik lainnya, yang bersifat serupa dan yang bertaraf kurang lebih sama seperti; sosiologi, psikologi, antropologi budaya.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Gadjah Mada University Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Misnal Marini</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Siti (korektor)</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-447-128-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">158</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Filsafat sejarah adalah cabang dari filsafat yang mempelajari tentang prinsip-prinsip mendasar sejauh dapat dtangkap oleh akal dan dapat dipertanggungkjawabkan secara ilmiah, artinya bersifat rasional-ilmiah.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Palembang : Noer Fikri</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>DR. Endang Rochmiatun, M. Hum.</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah__ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah__">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-451-532-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : K-Media</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Syahrul Nizar Saragih</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Jakob_Soemardjo</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>979-9299-15-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>ITB</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Jakob Sumardjo</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat Seni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_ -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surakarta : Universitas Sebelas Maret</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Suryo S.</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat seni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_Karl_Marx -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_Karl_Marx">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/Mikhail_Lifshitz</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>978-602-5868-27-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Menurut Lifshitz, tulisan-tulisan Marx menekankan kesenjangan perkembangan social dengan artistic, dan memandang sasaran tertinggi estetika Marx adalah memecahkan konstradiksi perkembangan kekuatan-kekuatan produktif dengan meningkatnya aliensi kelas-kelas produktif. Ia melihat dalam Marxisme ada sarana untuk menghapus kontradiksi penindasan dengan yang ditindas ; kerja fisik dengan mental, sehingga memungkinkan terciptanya kebudayaan universal yang nirkelas dan tidak mengasingkan.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Immortal Publishing dan Octopus</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Adhe (penyunting)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Ari Widjaja (penerjemah)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Lifshitz, Mikhail</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat seni Karl Marx</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ikhtisar_sejarah_filsafat_Barat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ikhtisar_sejarah_filsafat_Barat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1981</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Pustaka Alhusna</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>A. Hanafi</bukufilsafat:pengarang>
+        <rdfs:label>Ikhtisar sejarah filsafat Barat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Konsep_ketuhanan_dalam_kajian_theologi_dan_filsafat_islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Konsep_ketuhanan_dalam_kajian_theologi_dan_filsafat_islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">990</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Institut Agama Islam Negeri Raden Fatah (Palembang). Pusat Penelitian</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Zulhelmi</bukufilsafat:pengarang>
+        <rdfs:label>Konsep ketuhanan dalam kajian theologi dan filsafat islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Konsep_seni_dalam_estetika_ekspresivisme -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Konsep_seni_dalam_estetika_ekspresivisme">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-979-21-4904-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta: Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Rosa Delima (editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sunarto (penulis)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Yohanes Hermawan (editor)</bukufilsafat:pengarang>
+        <rdfs:label>Konsep seni dalam estetika ekspresivisme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Kontemporer -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Kontemporer">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Krisis_seni_krisis_kesadaran -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Krisis_seni_krisis_kesadaran">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:ISBN>979-21-0696-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">193</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Greg Soetomo</bukufilsafat:pengarang>
+        <rdfs:label>Krisis seni krisis kesadaran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Menuju_pemikiran_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Menuju_pemikiran_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-1190-75-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Tidak jarang terbersit dalam pemikiran kita sebuah pertanyaan apa pengetahuan itu, bagaimana pengetahuan diperoleh, mengapa manusia berpengetahuan. Pertanyaan-pertanyaan sederhana ini sering muncul yang tidak mudah untuk menjawabnya. Buku ini akan mengurai jawaban atas berbagai pertanyaan tersebut. Buku ini sengaja disuguhkan kepada para mahasiswa yang baru menginjak semester satu atau dua atau pembaca yang baru saja mengenal filsafat. Dalam buku ini penulis memilih islam sebagai perspektif dalam menyampaikan gagasan-gagasan yang berkenaan dengan filsafat ini. Hal ini adalah penting untuk menghilangkan anggapan bahwa filsafat tidak ada dalam Islam. Melalui buku ini penulis menyampaikan hal-hal pokok dalam kajian filsafat dengan cara sederhana dan yang biasanya menjadi pokok persoalan dalam mempelajari filsafat.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Malang : UIN-Maliki Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Muhammad In&apos;am Esha</bukufilsafat:pengarang>
+        <rdfs:label>Menuju pemikiran filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pendekatan_agama_dalam_filsafat_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pendekatan_agama_dalam_filsafat_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Nur Cahaya</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Muh Mastury</bukufilsafat:pengarang>
+        <rdfs:label>Pendekatan agama dalam filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_Filsafat_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_Filsafat_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-8522-18-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Pamekasan : STAIN Pamekasan Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Edi Susanto</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar Filsafat Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar__filsafat_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar__filsafat_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-623-236-325-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2023</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Buku ini mengantarkan pembaca kepada inti persoalan filsafat agama. Di dalamnya ditemukan sederet nama filsuf besar yang sudah populer dalam bidang filsafat yang lain maupun filsuf minor yang hanya dijumpai pada kajian agama. Dengan pemaparan argumen yang lugas dan mudah dicerna, buku ini dapat dijadikan referensi bacaan untuk mahasiswa, peneliti, maupun khalayak luas. Buku ini diharapkan menjadi pengantar singkat pada topik-topik utama filsafat agama, baik topik umum yang sudah lama didiskusikan maupun topik khusus atau topik baru yang sesekali muncul dalam kajian filsafat agama. Buku ini dimaksudkan untuk menjadi buku pengantar akademik yang akan mengantarkan pembaca kepada intisari persoalan filsafat agama. Kita akan diperjumpakan dengan sederat nama filsuf besar (major philosopher), yang sudah populer dalam bidang filsafat yang lain, maupun filsuf minor (minor philosopher) yang hanya dijumpai dalam kajian agama. Dengan menggunakan pemaparan argumen yang lugas, term-term yang lugas dan mudah dicerna, buku ini dapat dijadikan referensi bacaan untuk mahasiswa, peneliti, maupun khalayak umum yang concern dengan isu keagamaan.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Pustaka Pelajar</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Muhammad Nur Prabowo Setyabudi</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Ratih Idriyani (penyunting)</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar filsafat agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_Barat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_Barat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/Fuad_Hassan</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>979-419-200-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Dunia Pustaka Jaya</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Fuad Hassan</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar filsafat Barat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-7696-95-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">376</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Filsafat Islam sejatinya merupakan metode berpikir kenabian, prophetic philosophy, dalam rangka menyibak kebenaran perenial. Melalui buku Pengantar Filsafat Islam ini, Zaprulkhan ingin memperlihatkan dimensi profetik filsafat Islam dalam merespons berbagai persoalan kehidupan manusia. Buku-buku filsafat Islam yang beredar di kalangan mahasiswa lazimnya hanya membahas filsafat Islam secara historis-sosiologis, perkembangannya, para tokoh, dan konsep-konsepnya secara global. Konsep-konsep filsafat Islam secara tematis, seperti Filsafat Ketuhanan dan perdebatannya dengan konsep-konsep materialisme, Filsafat Rasionalisme Islam, atau epistemologi burhani, dan konsep lain yang diformulasikan oleh sebagian filsuf Muslim tidak tersentuh secara utuh, melainkan hanya secara sekilas. Dengan alasan tersebut, buku ini berupaya melengkapi kekurangan tema-tema yang belum dibahas sebelumnya dan mengelaborasi filsafat Islam secara tematik dengan memfokuskan pada bagian-bagian filsafat Islam secara umum yang mencakup Filsafat Rasionalisme Islam, Filsafat Ketuhanan, Filsafat Manusia Perspektif al-Qur’an, Filsafat Mistikal, Filsafat Pendidikan Islam, Filsafat Politik Islam, Filsafat Sains Islam, dan Filsafat Sejarah Islam. Inilah keistimewaan sekaligus kelebihan buku Filsafat Islam ini dibandingkan dengan buku-buku sejenis lainnya.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta: IRCiSOD</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Dr. Zaprulkhan, S.Sos</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Nuran Hasanah, S.Sos.I. (editor)</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar filsafat Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>9794210293</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Rajawali</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Aslam Hady</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar filsafat agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_filsafat_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya : Unesa University Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Santoso</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar filsafat sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_sejarah_dan_filsafat_ilmu_pengetahuan_alam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_sejarah_dan_filsafat_ilmu_pengetahuan_alam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-420-559-1</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Gadjah Mada University Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Peter Soedojo</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar sejarah dan filsafat ilmu pengetahuan alam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_Sebagai_Locus_Philosophicus_et_Theologicus -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_Sebagai_Locus_Philosophicus_et_Theologicus">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-979-25-4811-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Dunia (manusia) dengan sejarahnya itulah locus philosophicus et theologicus. Atau suatu tempat teologis, kelokalan dalam mana orang dapat berjumpa dengan Allah (Roh Absolut). Kata lainnya, suatu tempat di mana Kristianitas menjadi rasional secara universal dan oleh karena itu pada saat yang sama Kristianitas menjadi historis.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta: Lamalera</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Bona Beding (editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Eddy Kristyanto</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah Sebagai Locus Philosophicus et Theologicus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_dan_filsafat_pendidikan_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_dan_filsafat_pendidikan_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Bulan Bintang</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Asma Hasan Fahmi</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah dan filsafat pendidikan Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>9789792157987</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Penerbit PT Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Marcel(editor)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Prof. Dr. K. Bertens</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah filsafat Yunani</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani_dari_Thales_ke_Aristoles -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani_dari_Thales_ke_Aristoles">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1975</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Yayasan Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>K.Bertens</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah filsafat Yunani dari Thales ke Aristoles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani_dari_masa_pra-socrates_hingga_zaman_keemasan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_Yunani_dari_masa_pra-socrates_hingga_zaman_keemasan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-623-7743-64-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">334</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Filsafat adalah induk dari ilmu pengetahuan karena inti filsafat adalah berpikir kritis, analitis, sistematis, rasional, dan radikal. Buku ini menerangkan sejarah lahirnya filsafat dalam rangka mengajak pembaca memahami dan memasuki alam filsafat serta mengetahui ajaran-ajaran para filsuf.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Batu : Literasi Nusantara</bukufilsafat:penerbit>
+        <bukufilsafat:penerbit>Taufik Hidayat</bukufilsafat:penerbit>
+        <rdfs:label>Sejarah filsafat Yunani dari masa pra-socrates hingga zaman keemasan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_barat_modern_dan_sejaman -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_barat_modern_dan_sejaman">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Martinus_Antonius_Weselinus_Brouwer</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1979</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bandung : Alumni</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>M.A.W. Brouwer</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah filsafat barat modern dan sejaman</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_ilmu_dan_teknologi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_ilmu_dan_teknologi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_ilmu"/>
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_teknologi"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Kontemporer"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9795187449</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Rineka Cipta</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H. Burhanuddin Salam</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah filsafat ilmu dan teknologi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_pemikiran_Barat_moderen -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_pemikiran_Barat_moderen">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-1228-53-1</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kepel Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Hendrik Arwam</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah pemikiran Barat moderen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Solidaritas_dan_mata_batin_seni -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Solidaritas_dan_mata_batin_seni">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-14359-0-8</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Excellent Group</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Paul Heru Wibowo</bukufilsafat:pengarang>
+        <rdfs:label>Solidaritas dan mata batin seni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Studi_dasar_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Studi_dasar_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-453-855-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">197</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Buku ini ditulis untuk memenuhi dua tujuan utama, pertama sebagai langkah pertama bagi mereka yang mulai belajar filsafat dan bagi semua yang tertarik kepada filsafat sebagai lapangan diskusi untuk pertanyaan-pertanyaan dari semua zaman. Kedua, untuk memperkenalkan kepada para mahasiswa tentang filsafat, sejarah perkembangannya dan tokoh-tokoh penting dalam sejarah filsafat dengan memaparkan kembali secara sistematis pandangan mereka tentang persoalan yang berkaitan dengan agama, manusia dan alam. Filsafat mempunyai sejarah yang panjang, filsafat lebih tua daripada semua ilmu. Walaupun demikian filsafat bagi kebanyakan orang dianggap suatu yang kabur, sesuatu yang kelihatan tidak berguna, tanpa metode, tanpa kemajuan dan banyak perselisihan pendapat.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Deepublish</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Tazkiyah Basa&apos;ad</bukufilsafat:pengarang>
+        <rdfs:label>Studi dasar filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Buku_Kategori"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama,_filsafat,_&amp;_lingkungan_hidup -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama,_filsafat,_&amp;_lingkungan_hidup">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/John_Allen_Grim</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/Mary_Evelyn_Tucker</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>979-21-951-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>John A. Grim</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Mary Evelyn Tucker</bukufilsafat:pengarang>
+        <rdfs:label>Agama, filsafat, &amp; lingkungan hidup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_&amp;_filsafat_:_kajian_terhadap_pemikiran_andalusia_Ibnu_Massarah,_Ibnu_Thufail_dan_Ibnu_Rasyi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_&amp;_filsafat_:_kajian_terhadap_pemikiran_andalusia_Ibnu_Massarah,_Ibnu_Thufail_dan_Ibnu_Rasyi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-9289-38-6</bukufilsafat:ISBN>
+        <bukufilsafat:ISBN>Jakarta : Pustaka Pelajar</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:pengarang>Abdul Maqsud Abdul Ghani Abdul Maqsud</bukufilsafat:pengarang>
+        <rdfs:label>Agama &amp; filsafat : kajian terhadap pemikiran andalusia Ibnu Massarah, Ibnu Thufail dan Ibnu Rasyi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_masa_depan_:_Perspektif_filsafat_perennial -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Agama_masa_depan_:_Perspektif_filsafat_perennial">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Komaruddin_Hidayat</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>979-22-0265-X</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Gramedia Pustaka Utama</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Komaruddin Hidayat</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Muhamad Wahyudi Nafis</bukufilsafat:pengarang>
+        <rdfs:label>Agama masa depan : Perspektif filsafat perennial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Apakah_seni_itu? -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Apakah_seni_itu?">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/Leo_Tolstoy</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:ISBN>978-623-6631-93-5</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:abstrak>Leo Tolstoy dikenal sebagai orang bijak dan pengkhotbah serta penulis War &amp; Peace dan Anna Karenina. Ia menulis secara produktif dalam serangkaian esai dan polemik tentang masalah moralitas, keadilan sosial dan agama. Hal ini memuncak dalam Apakah Seni Itu??? Bagi Tolstoy, seni Eropa sejak Renaisans bukanlah seni “sejati”, tetapi seni “palsu”, yang ditandai dengan sikap sopan, penipuan, sensasional, dan terlalu intelektual. Beberapa master yang paling dihormati dalam kanon sejarah seni: Michelangelo, Shakespeare, Bach, Beethoven, Wagner, Baudelaire, Zola, dan banyak lainnya, diejeknya sebagai orang-orang yang tidak tulus, dekaden, dan maniak selangkangan. Bahkan konsep kecantikan diekspos sebagai obsesi manipulatif, penuh perhitungan, dan sesat dari kelas atas, yang sebagian besar dihasilkan dengan mengorbankan kelas pekerja.?? Buku ini Tolstoy selesaikan dalam bahasa Rusia pada tahun 1897, tetapi terbit pertama kali dalam bahasa Inggris karena kesulitan melewati sensor Rusia.??Pengantar?Apakah Seni Itu? adalah salah satu karya terbaik Leo Tolstoy, seorang sastrawan Rusia, pembaharu sosial, pasifis, anarkis Kristen, vegetarian, pemikiran moral dan seorang anggota berpengaruh dari keluarga Tolstoy. Tolstoy secara luas dianggap sebagai salah seorang penulis terbesar dunia, khususnya karena adikaryanya War and Peace dan Anna Karenina.?</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</bukufilsafat:penerbit>
+        <bukufilsafat:penerbit>Yogyakarta : Basabasi</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Leo Tolstoy</bukufilsafat:pengarang>
+        <rdfs:label>Apakah seni itu?</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Aqidah_tauhid_dalam_agama_bangsa²_purbakala_dan_filsafat_lama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Aqidah_tauhid_dalam_agama_bangsa²_purbakala_dan_filsafat_lama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Muchtar_Jahja</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jogjakarta : Lembaga Penerbitan Ilmijah, Fakultas Ushuluddin, Institut Agama</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Muchtar Jahja</bukufilsafat:pengarang>
+        <rdfs:label>Aqidah tauhid dalam agama bangsa-bangsa purbakala dan filsafat lama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Bertuhan_tampa_agama_:_esai-esai_Bertrand_Russel_tentang_agama,_filsafat_dan_sains -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Bertuhan_tampa_agama_:_esai-esai_Bertrand_Russel_tentang_agama,_filsafat_dan_sains">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-3723-58-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Risist Book</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Lois Greenspan</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Stefan Andersson</bukufilsafat:pengarang>
+        <rdfs:label>Bertuhan tampa agama : esai-esai Bertrand Russel tentang agama, filsafat dan sains</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Einstein_mencari_Tuhan_:_melalui_musik,_filsafat,_sains,_hingga_agama_menurut_pandangan_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Einstein_mencari_Tuhan_:_melalui_musik,_filsafat,_sains,_hingga_agama_menurut_pandangan_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-812-511-5</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Einstein belajar filsafat Yunani bermula dari kegemarannya meperhatikan benda-benda di sekitarnya, termasuk juga memperhatikan perubahan-perubahan yang terjadi di alam semesta. Adakah yang kekal abadi di alam raya ini? Hal lain yang mengantarkan ke dunia filsafat adalah pengalaman masa kecilnya, di mana Einstein pernah mendapatkan pendidikan 2 agama yang berbeda. Sosok Tuhan menurut agama Yahudi ternyata tidak sama dengan sosok Tuhan menurut agama Kristen. Kedua kitab sucinya juga berbeda. Lantas manakah yang dianggap benar oleh Einstein di antara keduanya, Tuhan Yahudi atau Tuhan Kristen? Einstein cukup lama memikirkan hal ini, akan tetapi Einstein belum juga mendapatkan jawaban yang memuaskan, sehingga dia lari dan berpikir ke alam filsafat. Melalui filsafat Einstein berharap akan mendapat jawaban tentang sosok Tuhan. Penemuan-penemuan Einstein jelas bertentangan dengan teori Plato yang mengatakan bahwa alam semesta itu kekal. Sedangkan teori Plato tentang sosok Tuhan, juga tidak dapat diterima oleh Einstein, bahkan ditentangnya. Jadi, jelaslah bahwa berdasarkan teori filsafat Plato, Einstein menentang pendapat Plato yang tidak sesuai dengan logika dan jalan pikiran Einstein dan tidak sesuai dengan penemuan dalam bidang astrofisika dan astronomi. Einstein tidak bisa menerima penggambaran Tuhan seperti yang diberikan oleh Taurat dan Injil, yaitu diserupakan (dimiripkan) dengan sifat manusia. Dalam Kitab Taurat dikatakan bahwa Tuhan mempunyai anak yang bernama Izr atau Uzair yang bertugas mencatat wahyu atau ilham dari Allah. Begitu pula dalam agama Kristen, Tuhan digambarkan mempunyai anak yang bernama Jesus sang penebus dosa manusia, melalui kematian Jesus di tiang salib. Einstein menolak semua gambaran Tuhan yang diserupakan (dimiripkan) dengan sifat manusia, hal ini terungkap dari pernyataannya: “Ide Tuhan personal (dimiripkan manusia) sungguh asing dan tampak sedemikian naifbagi saya. Namun demikian, saya juga bukanlah seorang pemikir bebas dalam makna kata yang biasa kita dengar karena saya menemukan bahwa ini terutamanya adalah suatu sikap yang semata-mata terpelihara oleh sekolompok oposisi yang menentang takhayul yang naif. Sejauh ini perasaan saya adalah religius seiring terilhaminya diri saya dengan kesadaran akan ketidakcukupan jiwa manusia untuk dapat mema- hami sedemikian dalam keharmonisan alarn semesta yang tengah kita coba formulasikan sebagai hukum- hukum alam. Kesadai&apos;an dan kerendahan hati akan hal inilah yang saya rasakan tidak ada dalam mentalitas sosok pemikir bebas.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Pustaka Pelajar</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Wisnu Arya Wardhana</bukufilsafat:pengarang>
+        <rdfs:label>Einstein mencari Tuhan : melalui musik, filsafat, sains, hingga agama menurut pandangan Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Agama_:_Wisata_pemikiran_dan_kepercayaan_manusia -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Agama_:_Wisata_pemikiran_dan_kepercayaan_manusia">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-3762-99-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2007</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : RajaGrafindo Persada</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Amsal Bakhtiar</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat Agama : Wisata pemikiran dan kepercayaan manusia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Hindu_Nawa_Darsana_:_ajaran_Panca_Sraddha_menemukan_kebenaran -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_Hindu_Nawa_Darsana_:_ajaran_Panca_Sraddha_menemukan_kebenaran">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-204-203-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya : Paramita</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>I Ketut Pasek Gunawan</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat Hindu Nawa Darsana : ajaran Panca Sraddha menemukan kebenaran</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_:_titik_temu_akal_dengan_wahyu -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_:_titik_temu_akal_dengan_wahyu">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9796590778</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Pedoman Ilmu Jaya</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H. Hamzah Ya&apos;qub</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat agama : titik temu akal dengan wahyu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_:_wisata_pemikiran_dan_kepercayaan_manusia -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_agama_:_wisata_pemikiran_dan_kepercayaan_manusia">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-3762-99-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Pendekatan filsafat dan agama amat diperlukan karena pendekatan ini akan dapat memberikan setidaknya pemahaman yang mendalam dan pengertian yang menyeluruh tentang akar suatu persoalan. Banyak orang yang salah mengerti tentang filsafat karena melihat filsafat hanya dari satu sudut yang sempit kemudian melakukan generalisasi tentang apa yang dipahami tersebut, sehingga hanya menggunakan kacamata itu untuk melihat berbagai persoalan. padahal, kalau digali lebih jauh, pendekatan filsafat memberikan wawasan yang holistik dan integralistik dalam memahami dan memecahkan berbagai persoalan, termasuk persoalan agama</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Jakarta : RajaGrafindo Persada</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Amsal Bakhtiar</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat agama : wisata pemikiran dan kepercayaan manusia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_analitik_:_sejarah,_perkembangan,_dan_peranan_pers_para_tokohnya -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_analitik_:_sejarah,_perkembangan,_dan_peranan_pers_para_tokohnya">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-421-096-X</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Rajawali</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Rizal Mustansyir</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat analitik : sejarah, perkembangan, dan peranan pers para tokohnya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_dakwah_:_rekayasa_membangun_agama_dan_peradaban_Islam -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_dakwah_:_rekayasa_membangun_agama_dan_peradaban_Islam">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-6028730785</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Kencana</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>A. Ilyas Ismail</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Prio Hotman</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat dakwah : rekayasa membangun agama dan peradaban Islam</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_hukum,_sejarah,_aliran_dan_pemaknaan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_hukum,_sejarah,_aliran_dan_pemaknaan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789794206355</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">166</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Gadjah Mada University Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Abdul Ghofur Anshori</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat hukum, sejarah, aliran dan pemaknaan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam_:_konsep_dan_perkembangan_pemikirannya -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_pendidikan_Islam_:_konsep_dan_perkembangan_pemikirannya">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-421-399-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Raja Grafindo Persada</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Jalaluddin</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Usman Said</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat pendidikan Islam : konsep dan perkembangan pemikirannya</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sains_dalam_Al-Qur&apos;an_:_melacak_kerangka_dasar_integrasi_ilmu_dan_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sains_dalam_Al-Qur&apos;an_:_melacak_kerangka_dasar_integrasi_ilmu_dan_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-24-2957-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2007</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Malang : UIN-Malang Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H. Imron Rosssidy</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>H.M. Hadi Masruri</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sains dalam Al-Qur&apos;an : melacak kerangka dasar integrasi ilmu dan agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_buku_pegangan_kuliah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_buku_pegangan_kuliah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surakarta : Universitas Sebelas Maret</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Suyatno K.</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah : buku pegangan kuliah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_refleksi_sistematik -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_refleksi_sistematik">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-1351-68-0</bukufilsafat:ISBN>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Buku Filsafat Sejarah : refleksi sistematik ini menekankan pada filsafat sejarah yang sistematik (spekulatif). Jadi, bukan berpikir tentang pikiran, melainkan berpikir tentang kenyataan sendiri. Keseluruhan isi buku ini dibagi menjadi dua bagian. Pertama yaitu Historis, yang memperbincangkan pendapat tokoh-tokoh besar dalam filsafat sejarah. Kedua yaitu Sistematik, yang mencari pokok-pokok dan memberikan sintesis logik.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Thafa Media</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Anton Bakker</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sunarto(editor)</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah : refleksi sistematik</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_profetik,_spekulatif,_dan_kritis -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_sejarah_:_profetik,_spekulatif,_dan_kritis">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-623-218-320-9</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Hadirnya kajian filsafat dalam ilmu sejarah menjadi sangat menarik karena keduanya mampu mempelajari tentang masa lampau secara lebih kritis dan komprehensif. Buku ini menjabarkan tentang bagaimana Islam memandang sejarah sebagai kajian ilmu pengetahuan atau yang lebih dikenal dengan filsafat sejarah profetik, bagaimana para filsuf sejarah berbicara tentang dunia sejarah sehingga tercipta berbagai teori dan argumen pendukungnya, serta munculnya pemikiran filsafat sejarah kritis dengan berbagai aspek, seperti etika, estetika, epistemologi, metodologi, dan historiografi, sebagai reaksi atas eksistensi pemikiran filsafat sejarah spekulatif.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Jakarta : Prenadamedia Group</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Ahmad Sahidin</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Ajid Thohir</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat sejarah : profetik, spekulatif, dan kritis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_:_the_philosophy_of_art_(sebuah_pengantar_metodologi) -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_seni_:_the_philosophy_of_art_(sebuah_pengantar_metodologi)">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-5589-06-5</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Didalamnya merupakan kumpulan dari artikel John Hospers. namun sekalipun merupakan kumpulan artikel, buku ini mempunyai urutan yang sistematis; bab yang satu dengan lainnya saling berkaitan. Menurut Hospers, filsafat seni merupakan renungan tentang objek estetis atau karya seni, disamping juga membuat analisis mengenai konsep-konsep yang digunakan dalam perenungan itu. Lebih lanjut Hospers mengatan bahwa estetika adalah cabang filsafat yang berkaitan dengan penguraian beberapa pengertian dan pemecahan beberapa persoalan yang muncul bilamana seseorang merenungkan tentang benda-benda estetika.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Thafa Media</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Jalalaluddin Rumi (penerjemah)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>John Hospers</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sunarto (penyunting)</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat seni : the philosophy of art  (sebuah pengantar metodologi)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_umum_:_sebuah_pengantar_sejarah_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Filsafat_umum_:_sebuah_pengantar_sejarah_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-6989-19-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Manusia merupakan makhluk yang memiliki rasa kagum pada apa yang diciptaka oleh Sang Pencipta. Kekaguman tersebut kemudian mendorong manusia untuk berusaha mengetahui alam semesta itu sebenarnya apa, bagaimana asal usulnya (masalah kosmologis). Ia juga berusaha mengetahui dirinya sendiri, mengenai eksistensi, hakikat, dan tujuan hidupnya. Filsafat membebaskan manusia dari cara berpikir yang picik dan dangkal dan membimbing manusia untuk berpikir secara luas dan mendalam. Filsafat adalah ilmu yang berusaha mencari sebab yang sedalam-dlamnya bagi segala sesuatu berdasarkan pikiran/rasio belaka. Buku ini menguraikan secara singkat tentang pengertian filsafat, kedudukan ilmu, filsafat,dan agama serta sejarah perkembangan dan pemikiran para filosof.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Palembang : Noer Fikri Offset</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Dr.Jaenullah, S.H.I., MPd</bukufilsafat:pengarang>
+        <rdfs:label>Filsafat umum : sebuah pengantar sejarah filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Hakikat_kebahagiaan_dalam_tinjauan_filsafat,_ilmu_dan_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Hakikat_kebahagiaan_dalam_tinjauan_filsafat,_ilmu_dan_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:penerbit>Ponorogo : Pusat Studi Ilmu dan Amal</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Migdad Yaljan</bukufilsafat:pengarang>
+        <rdfs:label>Hakikat kebahagiaan dalam tinjauan filsafat, ilmu dan agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Hindu_agama_universal:_bagaimana_prakteknya_di_Bali?_melihat_filsafat,_etika,_ritual_hingga_sains-spiritual -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Hindu_agama_universal:_bagaimana_prakteknya_di_Bali?_melihat_filsafat,_etika,_ritual_hingga_sains-spiritual">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-204-393-5</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya: Paramita</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Ida Bagus Rai Djendra</bukufilsafat:pengarang>
+        <rdfs:label>Hindu agama universal: bagaimana prakteknya di Bali? &quot;melihat filsafat, etika, ritual hingga sains-spiritual&quot;</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#History_of_philosophy_=_sejarah_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#History_of_philosophy_=_sejarah_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-5644-74-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1028</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bantul : Penerbit Indoeduka</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>B. A. G. Fuller</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Daru Wijayanti (penyunting)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sutrisno (penerjemah)</bukufilsafat:pengarang>
+        <rdfs:label>History of philosophy : sejarah filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ibn_Rusyd_membela_Tuhan_:_filsafat_ketuhanan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ibn_Rusyd_membela_Tuhan_:_filsafat_ketuhanan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9793261072</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : LPAM ( Lembaga Pengkajian Agama dan Masyarakat)</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Ahmad Nur Fuad</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Aminullah El - Hady</bukufilsafat:pengarang>
+        <rdfs:label>Ibn Rusyd membela Tuhan : filsafat ketuhanan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ilmu,_filsafat_dan_agama_:_pendahuluan_Pendidikan_Agama_Islam_di_Perguruan_Tinggi_Umum -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ilmu,_filsafat_dan_agama_:_pendahuluan_Pendidikan_Agama_Islam_di_Perguruan_Tinggi_Umum">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://id.wikipedia.org/wiki/Endang_Saifuddin_Anshari</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya : Bina Ilmu</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Endang Saifuddin Anshari</bukufilsafat:pengarang>
+        <rdfs:label>Ilmu, filsafat dan agama : pendahuluan Pendidikan Agama Islam di Perguruan Tinggi Umum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#In_harnonia_progressio_:_kemajuan_dalam_harmoni_di_antara_seni,_sains_dan_teknologi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#In_harnonia_progressio_:_kemajuan_dalam_harmoni_di_antara_seni,_sains_dan_teknologi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-979-19147-2-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bandung : Majelis Guru Besar ITB</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Imam Buchori Zainuddin</bukufilsafat:pengarang>
+        <rdfs:label>In harnonia progressio : kemajuan dalam harmoni di antara seni, sains dan teknologi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Integrasi_agama_dan_filsafat_:_pemikiran_epistemologi_al-farabi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Integrasi_agama_dan_filsafat_:_pemikiran_epistemologi_al-farabi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-958-307-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">153</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Malang : UIN-Maliki Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>A. Khudori Soleh</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Muhammad In&apos;am Esha.(editor)</bukufilsafat:pengarang>
+        <rdfs:label>Integrasi agama dan filsafat : pemikiran epistemologi al-farabi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Integrasi_sains_dan_agama_:_tinjauan_filsafat_ilmu_kontemporer -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Integrasi_sains_dan_agama_:_tinjauan_filsafat_ilmu_kontemporer">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-979-456-519-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Universitas Indonesia (UI- Press)</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Bustanuddin Agus</bukufilsafat:pengarang>
+        <rdfs:label>Integrasi sains dan agama : tinjauan filsafat ilmu kontemporer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ketuhanan_dalam_telaah_filsafat_perenial_:_refleksi_pluralisme_agama_di_Indonesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ketuhanan_dalam_telaah_filsafat_perenial_:_refleksi_pluralisme_agama_di_Indonesia">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogjakarta : Badan Penerbitan Filsafat UGM</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Arqom Kuswanjono</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Mustofa Anshori Lidinillah</bukufilsafat:pengarang>
+        <rdfs:label>Ketuhanan dalam telaah filsafat perenial : refleksi pluralisme agama di Indonesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Kontekstualisasi_filsafat_transformatif_:_merambah_jalan_pendidikan,_kebudayaan,_politik_kebangsaan_dan_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Kontekstualisasi_filsafat_transformatif_:_merambah_jalan_pendidikan,_kebudayaan,_politik_kebangsaan_dan_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-73516-4-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Malang : Pelangi Sastra</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Hasnan Bachtiar</bukufilsafat:pengarang>
+        <rdfs:label>Kontekstualisasi filsafat transformatif : merambah jalan pendidikan, kebudayaan, politik kebangsaan dan agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Krisis_manusia_modern_:_agama,_filsafat,_ilmu -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Krisis_manusia_modern_:_agama,_filsafat,_ilmu">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya : Al-Ikhlas</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Hidayat Nataatmadja</bukufilsafat:pengarang>
+        <rdfs:label>Krisis manusia modern : agama, filsafat, ilmu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#L&apos;ars_factum_:_metodologi_penciptaan_seni -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#L&apos;ars_factum_:_metodologi_penciptaan_seni">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>978-602-397-126-8</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">179</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surakarta : UNS Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Andrik Purwasito</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Erwin Kartinawati (editor)</bukufilsafat:pengarang>
+        <rdfs:label>L&apos;ars factum : metodologi penciptaan seni</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Life_after_death_:_tinjauan_agama_dan_filsafat_tentang_hidup_sesudah_mati -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Life_after_death_:_tinjauan_agama_dan_filsafat_tentang_hidup_sesudah_mati">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:Biografi_Penulis>https://en.wikipedia.org/wiki/Joseph_Runzo</bukufilsafat:Biografi_Penulis>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Galah</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Erna Novana</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Joseph Runzo</bukufilsafat:pengarang>
+        <rdfs:label>Life after death : tinjauan agama dan filsafat tentang hidup sesudah mati</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Manusia,_filsafat,_dan_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Manusia,_filsafat,_dan_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-526-260-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Bumi Aksara</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Juraid Abdul Latief</bukufilsafat:pengarang>
+        <rdfs:label>Manusia, filsafat, dan sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Mencari_Allah_:_pengantar_ke_dalam_filsafat_ke_Tuhanan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Mencari_Allah_:_pengantar_ke_dalam_filsafat_ke_Tuhanan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9794137324</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">358</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Theo Huijbers</bukufilsafat:pengarang>
+        <rdfs:label>Mencari Allah : pengantar ke dalam filsafat ke Tuhanan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Menelusuri_Jejak_Capra_:_Menemukan_Integrasi,_Sains,_Filsafat,_Agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Menelusuri_Jejak_Capra_:_Menemukan_Integrasi,_Sains,_Filsafat,_Agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-21-0993-5</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Budi Widianarko</bukufilsafat:pengarang>
+        <rdfs:label>Menelusuri Jejak Capra : Menemukan Integrasi, Sains, Filsafat, Agama</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Paham_Allah_:_dalam_filsafat,_agama-agama_dan_teologi -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Paham_Allah_:_dalam_filsafat,_agama-agama_dan_teologi">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>979-21-0977-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Tom Jacobs</bukufilsafat:pengarang>
+        <rdfs:label>Paham Allah : dalam filsafat, agama-agama dan teologi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pancasila_filsafat_hukum_ketatanegaraan_penghabisan_zaman_:_ditinjau_dari_filsafat_hukum,_kemanusiaan_dan_filsafat_dalam_perjalanan_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pancasila_filsafat_hukum_ketatanegaraan_penghabisan_zaman_:_ditinjau_dari_filsafat_hukum,_kemanusiaan_dan_filsafat_dalam_perjalanan_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bandung : Kudamas Intra Asia</bukufilsafat:penerbit>
+        <rdfs:label>Pancasila filsafat hukum ketatanegaraan penghabisan zaman : ditinjau dari filsafat hukum, kemanusiaan dan filsafat dalam perjalanan sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pemikiran_filsafat_konfusianisme_klasik_:_kontribusinya_bagi_agama_Konghucu_di_Indonesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pemikiran_filsafat_konfusianisme_klasik_:_kontribusinya_bagi_agama_Konghucu_di_Indonesia">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-1546-75-8</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : Lintang Pustaka Utama</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Lasiyo</bukufilsafat:pengarang>
+        <rdfs:label>Pemikiran filsafat konfusianisme klasik : kontribusinya bagi agama Konghucu di Indonesia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_ilmu_sejarah,_teori_filsafat_sejarah,_sejarah_filsafat_dan_Iptek -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pengantar_ilmu_sejarah,_teori_filsafat_sejarah,_sejarah_filsafat_dan_Iptek">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Rineka Cipta</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>H. Rustam E. Tamburaka</bukufilsafat:pengarang>
+        <rdfs:label>Pengantar ilmu sejarah, teori filsafat sejarah, sejarah filsafat dan Iptek</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Persoalan_ketuhanan_:_dalam_wacana_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Persoalan_ketuhanan_:_dalam_wacana_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-979-21-4091-0</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Apakah ‘wacana tentang ketuhanan’ masih relevan? Lepas dari persoalan apakah istilah ‘Tuhan’ masih digunakan atau orang mau menggunakan istilah lain, sebagai pengetahuan mengenai sesuatu yang sangat mendasar, tentu saja wacana ini masih sangat relevan, - setidaknya dalam runutan sejarah filsafat untuk bisa memahami perkembangan pemikiran-pemikiran mutakhir yang tidak mudah ini. Topik-topik yang dibicarakan di sini bukan hanya menyangkut pembuktian ‘eksistensi’ Tuhan’, melainkan meluas menyangkut juga argumentasi linguistik yang mempersoalkan penggunaan bahasa agama dan argumentasi teodicea yang mempersoalkan dilema antara Tuhan Yang Mahabaik dan adanya kejahatan di dunia. Seperti dalam karangan-karangan lainnya yang pernah diterbitkan, tulisan Dr. Harry Hamersma menggunakan bahasa yang ringkas, padat, tetapi dalam pernyataan-pernyataan yang tegas, sehingga mudah diikuti argumentasinya. Selain itu, Dr. Harry Hamersma sangat piawai mengutip kata-kata para filsuf sendiri yang dengan tepat dan lebih jelas dapat mengungkapkan isi pemikiran mereka.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Harry Hamersma</bukufilsafat:pengarang>
+        <rdfs:label>Persoalan ketuhanan : dalam wacana filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Perspektif_teologi_&amp;_filsafat_Al_Ghazali_&amp;_Hume_:_kritik_dekonstruktif_nalar_kausalitas_dalam_teologi_dan_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Perspektif_teologi_&amp;_filsafat_Al_Ghazali_&amp;_Hume_:_kritik_dekonstruktif_nalar_kausalitas_dalam_teologi_dan_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-95805-9-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman>Malang : Madani</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:pengarang>Ahmad Nawawi</bukufilsafat:pengarang>
+        <rdfs:label>Perspektif teologi &amp; filsafat Al Ghazali &amp; Hume : kritik dekonstruktif nalar kausalitas dalam teologi dan filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Pijar-pijar_penyingkap_rasa_:_sebuah_wacana_seni_dan_keindahan_dari_plato_sampai_Derrida -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Pijar-pijar_penyingkap_rasa_:_sebuah_wacana_seni_dan_keindahan_dari_plato_sampai_Derrida">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-686-411-8</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">173</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Gramedia Pustaka Umum</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Bagoes P. Wiryomartono</bukufilsafat:pengarang>
+        <rdfs:label>Pijar-pijar penyingkap rasa : sebuah wacana seni dan keindahan dari plato sampai Derrida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_aliran_:_mengenal_aliran,_tokoh_filsafat_kuno_dan_abad_pertengahan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_filsafat_aliran_:_mengenal_aliran,_tokoh_filsafat_kuno_dan_abad_pertengahan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:ISBN>979-371-013-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya : Alpha</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Tasmuji</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah filsafat aliran : mengenal aliran, tokoh filsafat kuno dan abad pertengahan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_perkembangan_pemikiran_Islam_[teologi,_filsafat,_tasawuf,_dan_pendidikan] -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sejarah_perkembangan_pemikiran_Islam_[teologi,_filsafat,_tasawuf,_dan_pendidikan]">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-74187-8-3</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Pekanbaru : Forum Kerakyatan</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Widodo</bukufilsafat:pengarang>
+        <rdfs:label>Sejarah perkembangan pemikiran Islam [teologi, filsafat, tasawuf, dan pendidikan]</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Seni_dan_strategi_multikultural_:_wacana-kreativitas-pemaknaan -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Seni_dan_strategi_multikultural_:_wacana-kreativitas-pemaknaan">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">186</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Diktat seni dan strategi multikultural menawarkan sejumlah pendekatan konseptual baru, dengan cara menuangkan wacana, kreativitas dan pemaknaan, yang berkembang dalam ranah pemikiran multikultural. Penuangan materi dalam buku ini sebagian besar merupakan refleksi dan kecenderungan subyektif penulisnya. Kecenderungan yang demikian merupakan kendala tersendiri bagi pembaca untuk dapat memasuki pemikiran yang ditawarkan. Buku ini dilengkapi dengan ilustrasi gambar dan skema yang diringkaskan, diantaranya uraian yang bersifat argumentatif dan teoritis, dengan harapan bahwa sejumlah pandangan yang ditawarkan dapat memperkaya kehidupan wacana seni dan secara umum, dan wacana seni teater khususnya.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Bandung : Pasca Sarjana ISBI</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Benny Yohannes</bukufilsafat:pengarang>
+        <rdfs:label>Seni dan strategi multikultural : wacana-kreativitas-pemaknaan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Simetri_ilahi-insani_:_agama_menurut_filsafat_perenial -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Simetri_ilahi-insani_:_agama_menurut_filsafat_perenial">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-6913-45-6</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Buku ini mengkaji tentang filsafat perennial dalam berbagai agama. Filsafat parennial merupakan salah satu alternatif metode yang digunakan untuk pendekatan dalam agama. Agama merupakan suatu perwujudan dari fungsi kebenaran dan fungsi kebenaran, di mana fungsi utamanya adalah penyelamatan atau penebusan. Menurut pandangan tradisionalisme, agama merupakan suatu perwujudan konkrit dari sebuah tradisi.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Bandung : Penerbit Nusa Media</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Ahmad-Norma Permata</bukufilsafat:pengarang>
+        <rdfs:label>Simetri ilahi-insani : agama menurut filsafat perenial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Sisi_indah_kehidupan_:_pemikiran_seni_dan_kritik_teater -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Sisi_indah_kehidupan_:_pemikiran_seni_dan_kritik_teater">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>979-9707-13-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">181</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>akarta : Masyarakat Seni Pertunjukan Indonesia</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Tommy F. Awuy</bukufilsafat:pengarang>
+        <rdfs:label>Sisi indah kehidupan : pemikiran seni dan kritik teater</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Siva_siddhanta_tattva_dan_filsafat:_perkembangan_Agama_Hindu_berpaham_siva_siddhanta_di_India_Indonesia_dan_Bali -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Siva_siddhanta_tattva_dan_filsafat:_perkembangan_Agama_Hindu_berpaham_siva_siddhanta_di_India_Indonesia_dan_Bali">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-204-204-4</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surabaya: Paramita</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>I Ketut Pasek Gunawan</bukufilsafat:pengarang>
+        <rdfs:label>Siva siddhanta tattva dan filsafat: perkembangan Agama Hindu berpaham siva siddhanta di India Indonesia dan Bali</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Teori_dan_filsafat_sejarah_:_buku_pegangan_kuliah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Teori_dan_filsafat_sejarah_:_buku_pegangan_kuliah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Surakarta : universitas Sebelas Maret</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Sri Wahyuni</bukufilsafat:pengarang>
+        <rdfs:label>Teori dan filsafat sejarah : buku pegangan kuliah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Titik_temu_dibalik_kebhinnekaan_agama_:_persepektif_filsafat_perenial_dan_relevasinya_dalam_konteks_ke-Indonesian -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Titik_temu_dibalik_kebhinnekaan_agama_:_persepektif_filsafat_perenial_dan_relevasinya_dalam_konteks_ke-Indonesian">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-5420-12-2</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Bandar Lampung : Pusaka Media</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>M. Baharuddin</bukufilsafat:pengarang>
+        <rdfs:label>Titik temu dibalik kebhinnekaan agama : persepektif filsafat perenial dan relevasinya dalam konteks ke-Indonesian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Uang,_seni,_dan_tawa_:_perspektif_filsafat -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Uang,_seni,_dan_tawa_:_perspektif_filsafat">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_seni"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:ISBN>201900101171726 978-979-21-5871-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Yogyakarta : PT. Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Yohanes Slamet Purwadi</bukufilsafat:pengarang>
+        <rdfs:label>Uang, seni, dan tawa : perspektif filsafat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Ungkapan-ungkapan_filsafat_sejarah_Barat_dan_Timur_:penjelasan_berdasarkan_kesadaran_sejarah -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ungkapan-ungkapan_filsafat_sejarah_Barat_dan_Timur_:penjelasan_berdasarkan_kesadaran_sejarah">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_sejarah"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Umum"/>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:penerbit>Jakarta : Gramedia</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>M. Darwono Pusposaputro (penerjemah)</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Sartono Kartodirdjo</bukufilsafat:pengarang>
+        <rdfs:label>Ungkapan-ungkapan filsafat sejarah Barat dan Timur :penjelasan berdasarkan kesadaran sejarah</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Untuk_semua_yang_beragama_:_agama_dalam_pelukan_filsafat,_politik,_dan_spiritualitas -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Untuk_semua_yang_beragama_:_agama_dalam_pelukan_filsafat,_politik,_dan_spiritualitas">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9789792163933</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Di abad ke dua puluh satu, agama tetap memainkan peranan besar di dalam hidup manusia. Berjuta kritik sudah diarahkan kepadanya, namun agama selalu mengembalikan sayapnya di abad ilmu pengetahuan dan teknologi, memberikan warna bagi kehidupan pribadi manusia. Di dalam perkembangan, agama juga tidak bisa dipisahkan dari kerumitan pergulatan hidup manusia.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Yogyakarta : Kanisius</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Reza A. A. Wattimena</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Victi (editor)</bukufilsafat:pengarang>
+        <rdfs:label>Untuk semua yang beragama : agama dalam pelukan filsafat, politik, dan spiritualitas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.tubessemantic.id/ws/bukufilsafat.owl#Wahdah_al-wujud_Ibnu_&apos;Arabi_&amp;_filsafat_wujud_mulla_shadra_:_tasawuf_filosofis_(irfan_teoritis),_relevansinya_dengan_filsafat_Islam_untuk_menetapkan_rasionalitas_dan_spiritualitas_agama -->
+
+    <owl:NamedIndividual rdf:about="http://www.tubessemantic.id/ws/bukufilsafat.owl#Wahdah_al-wujud_Ibnu_&apos;Arabi_&amp;_filsafat_wujud_mulla_shadra_:_tasawuf_filosofis_(irfan_teoritis),_relevansinya_dengan_filsafat_Islam_untuk_menetapkan_rasionalitas_dan_spiritualitas_agama">
+        <rdf:type rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#filsafat_agama"/>
+        <bukufilsafat:Memiliki_Kategori rdf:resource="http://www.tubessemantic.id/ws/bukufilsafat.owl#Ke-Indonesiaan"/>
+        <bukufilsafat:ISBN>978-602-18273-0-7</bukufilsafat:ISBN>
+        <bukufilsafat:Jumlah_Halaman rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</bukufilsafat:Jumlah_Halaman>
+        <bukufilsafat:Tahun_Terbit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</bukufilsafat:Tahun_Terbit>
+        <bukufilsafat:abstrak>Pemikiran wahdah al wujud sejak awal kemunculannya hingga saat ini, tidak pernah surut untuk di perbincangkannya hingga saat ini, tidak pernah surut untuk diperbincangkan, dianalisis, dan diteliti, ibn &apos;arabi diyakini sebagai tokoh yang memberikan sumbangsih besar dalam menyebarkan konsep wahdah al-wujud. Mulla Shadra juga dikenal sebagai salah satu filsuf yang fokus terhadap wahdah al-wujud yang dikenal dengan filsafat Hikmah Muta&apos;aliyah. prinsip-prinsip pemikiran Filsafat Mulla Shadra mampu membuktikan teori wahdah al-wujud. prinsip wahdah al-wujud merupakan forndasi ontologis dalam irfan. Buku ini mencoba menjelaskan beberapa konsep wahdah al-wujud dalam pandangan Mulla Shadra; menjelaskan beberapa instrumen yang digunakan oleh Mulla Shadra dalam mengargumentasikan konsep wahdah al-wujud; menjelaskan letak perbedaan penafsiran dalam memahami argumentasi Mulla Shadra mengenai wahdah al-wujud oleh para pengikut Shadra.</bukufilsafat:abstrak>
+        <bukufilsafat:penerbit>Makasar: Chamran Press</bukufilsafat:penerbit>
+        <bukufilsafat:pengarang>Muhammad Nur Djabir</bukufilsafat:pengarang>
+        <bukufilsafat:pengarang>Safwan, A.M. (penyunting)</bukufilsafat:pengarang>
+        <rdfs:label>Wahdah al-wujud Ibnu &apos;Arabi &amp; filsafat wujud mulla shadra : tasawuf filosofis (irfan teoritis), relevansinya dengan filsafat Islam untuk menetapkan rasionalitas dan spiritualitas agama</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

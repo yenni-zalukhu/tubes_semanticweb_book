@@ -1,50 +1,44 @@
 <?php
-require_once __DIR__."/vendor/autoload.php"; // Include autoloader dari Composer
+    require_once __DIR__."/vendor/autoload.php";
 
-function generateRdfGraph($novelData)
-{
-    // Inisialisasi Graph RDF
-    $graph = new \EasyRdf\Graph();
+    // Load some properties from the composer file
+    $composer = json_decode(file_get_contents(__DIR__."/composer.json"));
 
-    foreach ($novelData as $novel) {
-        $novelResource = $graph->newBNode('schema:Book'); // Node untuk novel
-        
-        $novelResource->addLiteral('schema:name', $novel['title']); // Judul novel
-        $novelResource->addLiteral('schema:author', $novel['author']); // Pengarang
-        $novelResource->addLiteral('schema:datePublished', $novel['year']); // Tahun terbit
-        $novelResource->addLiteral('schema:genre', $novel['genre']); // Genre
-        $novelResource->addLiteral('schema:publisher', $novel['publisher']); // Penerbit
+    // Start building up a RDF graph
+    $doap = new \EasyRdf\Graph($composer->homepage.'doap.rdf');
+    $easyrdf = $doap->resource('#easyrdf', 'doap:Project', 'foaf:Project');
+    $easyrdf->addLiteral('doap:name',  'EasyRDF');
+    $easyrdf->addLiteral('doap:shortname', 'easyrdf');
+    $easyrdf->addLiteral('doap:revision', $composer->version);
+    $easyrdf->addLiteral('doap:shortdesc', $composer->description, 'en');
+    $easyrdf->addResource('doap:homepage', $composer->homepage);
 
-        if (!empty($novel['description'])) {
-            $novelResource->addLiteral('schema:description', $novel['description']); // Deskripsi
-        }
-    }
+    $easyrdf->addLiteral('doap:programming-language', 'PHP');
+    $easyrdf->addLiteral(
+        'doap:description', 'EasyRdf is a PHP library designed to make it easy to consume and produce RDF. '.
+        'It was designed for use in mixed teams of experienced and inexperienced RDF developers. '.
+        'It is written in Object Oriented PHP and has been tested extensively using PHPUnit.', 'en'
+    );
+    $easyrdf->addResource('doap:license', 'http://usefulinc.com/doap/licenses/bsd');
+    $easyrdf->addResource('doap:download-page', 'http://github.com/easyrdf/easyrdf/downloads');
+    $easyrdf->addResource('doap:bug-database', 'http://github.com/easyrdf/easyrdf/issues');
+    $easyrdf->addResource('doap:mailing-list', 'http://groups.google.com/group/easyrdf');
 
-    return $graph->serialise('rdfxml'); // Serialisasi ke RDF/XML
-}
+    $easyrdf->addResource('doap:category', 'http://dbpedia.org/resource/Resource_Description_Framework');
+    $easyrdf->addResource('doap:category', 'http://dbpedia.org/resource/PHP');
+    $easyrdf->addResource('doap:category', 'http://www.dbpedialite.org/things/24131#id');
+    $easyrdf->addResource('doap:category', 'http://www.dbpedialite.org/things/53847#id');
 
-// Contoh data novel
-$novelData = [
-    [
-        'title' => 'Pride and Prejudice',
-        'author' => 'Jane Austen',
-        'year' => '1813',
-        'genre' => 'Romance',
-        'publisher' => 'T. Egerton',
-        'description' => 'A classic novel about love and society.'
-    ],
-    [
-        'title' => '1984',
-        'author' => 'George Orwell',
-        'year' => '1949',
-        'genre' => 'Dystopian',
-        'publisher' => 'Secker & Warburg',
-        'description' => 'A novel about surveillance and totalitarianism.'
-    ]
-];
+    $repository = $doap->newBNode('doap:GitRepository');
+    $repository->addResource('doap:browse', 'http://github.com/easyrdf/easyrdf');
+    $repository->addResource('doap:location', 'git://github.com/easyrdf/easyrdf.git');
+    $easyrdf->addResource('doap:repository', $repository);
 
-// Cetak output RDF
-header("Content-Type: application/rdf+xml");
-echo generateRdfGraph($novelData);
-?>
+    $njh = $doap->resource('http://njh.me/', 'foaf:Person');
+    $njh->addLiteral('foaf:name', 'Nicholas J Humfrey');
+    $njh->addResource('foaf:homepage', 'http://www.aelius.com/njh/');
+    $easyrdf->add('doap:maintainer', $njh);
+    $easyrdf->add('doap:developer', $njh);
+    $easyrdf->add('foaf:maker', $njh);
 
+    print $doap->serialise('rdfxml');
